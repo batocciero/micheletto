@@ -17,27 +17,96 @@
     <link rel="stylesheet" href="<?= url("/theme/css/style.css"); ?>"/>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg z-index bg-body navbar-dark text-center shadow-outside">
-        <a class="navbar-brand d-block" href="<?= url(); ?>"><strong>TUON Marcenaria</strong></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="<?= url(); ?>">Início</a>
+        <div class="collapse navbar-collapse text-black-50" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+
+                <li id="lhome" class="nav-item active">
+                    <a onclick="addClass('lhome')" class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="<?= url("projetos"); ?>">Projetos Recentes</a>
+
+                <li class="nav-item" id="lhistoria">
+                    <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="#">História</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="<?= url("sobre"); ?>">Sobre Nós</a>
+
+                <li  id="lprodutos" class="nav-item dropdown">
+                    <a onclick="addClass('lprodutos')" class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Produtos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Produtos</a>
+                        <a class="dropdown-item" href="#">Vinhos</a>
+                        <a class="dropdown-item" href="#">Uvas</a>
+                        <a class="dropdown-item" href="#">Mudas de Uvas</a>
+                        <a class="dropdown-item" href="#">Flores</a>
+                        <a class="dropdown-item" href="#">Empório</a>
+                        <a class="dropdown-item" href="#">Cavalos</a>
+<!--                        <div class="dropdown-divider"></div>-->
+<!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="<?= url("contato"); ?>">Contato</a>
+
+                <li  id="lturismo" class="nav-item dropdown">
+                    <a onclick="addClass('lturismo')" class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Turismo
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Produtos</a>
+                        <a class="dropdown-item" href="#">Vinhos</a>
+                        <a class="dropdown-item" href="#">Uvas</a>
+                        <a class="dropdown-item" href="#">Mudas de Uvas</a>
+                        <a class="dropdown-item" href="#">Flores</a>
+                        <a class="dropdown-item" href="#">Empório</a>
+                        <a class="dropdown-item" href="#">Cavalos</a>
+                        <!--                        <div class="dropdown-divider"></div>-->
+                        <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                    </div>
+                </li>
+
+                <li id="lservicos" class="nav-item dropdown">
+                    <a onclick="addClass('lservicos')"  class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Serviços
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Produtos</a>
+                        <a class="dropdown-item" href="#">Vinhos</a>
+                        <a class="dropdown-item" href="#">Uvas</a>
+                        <a class="dropdown-item" href="#">Mudas de Uvas</a>
+                        <a class="dropdown-item" href="#">Flores</a>
+                        <a class="dropdown-item" href="#">Empório</a>
+                        <a class="dropdown-item" href="#">Cavalos</a>
+                        <!--                        <div class="dropdown-divider"></div>-->
+                        <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                    </div>
+                </li>
+
+                <li id="leventos" class="nav-item dropdown">
+                    <a onclick="addClass('leventos')"  class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Eventos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Produtos</a>
+                        <a class="dropdown-item" href="#">Vinhos</a>
+                        <a class="dropdown-item" href="#">Uvas</a>
+                        <a class="dropdown-item" href="#">Mudas de Uvas</a>
+                        <a class="dropdown-item" href="#">Flores</a>
+                        <a class="dropdown-item" href="#">Empório</a>
+                        <a class="dropdown-item" href="#">Cavalos</a>
+                        <!--                        <div class="dropdown-divider"></div>-->
+                        <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                    </div>
+                </li>
+
+                <li id="lcuriosidades" class="nav-item">
+                    <a onclick="addClass('lcuriosidades')" class="font-weight-bold nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Curiosidades</a>
                 </li>
             </ul>
+
         </div>
     </nav>
 

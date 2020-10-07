@@ -1,0 +1,28 @@
+// Paleta de cores para o site
+$navbar: #AB9166;
+$header-color: #DFD6C8;
+$purple-wine: #7450AD;
+$title-color: #8E5566;
+
+
+$theme-colors: (
+        "navbar": $navbar,
+        "header-color": $header-color,
+        "purple-wine": $purple-wine,
+        "title-color": $title-color,
+
+);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// Importando o Bootstrap e demais deps de scss
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+//Bootstrap classes replace

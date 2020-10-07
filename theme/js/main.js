@@ -1,19 +1,36 @@
-// google maps
-function initMap() {
-    let location = {
-        lat: -25.363,
-        lng: 131.004
-    };
+function whoIsActive() {
+    let IDs = ["lhome", "lhistoria", "lprodutos", "lturismo", "lservicos", "leventos", "lcuriosidades"]
 
-    let map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 4,
-        center: location
-    });
+    for (let i = 0; i < IDs.length; i++) {
+        if (document.getElementById(IDs[i]).classList.contains("active") === true) {
+            return IDs[i]
+        }
+    }
 }
 
-// Caroussel
-$(".carousel").carousel({
-    interval: 100000
-});
+function addClass (idName) {
 
+    let x = document.getElementById(idName)
+    if (x === null) {
+        console.log("Null class on addClass()")
+        return 0
+    } else {
+        if (whoIsActive() === idName) {
+            console.log("Tudo Suave então")
+        } else {
+            removeClass(whoIsActive())
+            let x = document.getElementById(idName)
+            x.classList.add("active")
+        }
+    }
+}
 
+function removeClass (idName) {
+    let x = document.getElementById(idName)
+    if (x === null) {
+        console.log("Null class on addClass()")
+        return 0
+    } else {
+        x.classList.remove("active")
+    }
+}
