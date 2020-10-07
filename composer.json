@@ -1,0 +1,31 @@
+{
+  "name": "batocciero/micheletto",
+  "description": "Vinhos Micheletto Web Site",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "wofous",
+      "email": "wofouscontato@gmail.com",
+      "role": "Developer",
+      "homepage": "https://vinhosmicheletto.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-pdo": "*",
+    "coffeecode/router": "1.0.*",
+    "league/plates": "v4.0.0-alpha"
+  }
+}

@@ -1,0 +1,37 @@
+<?php
+
+require __DIR__ . "/vendor/autoload.php";
+
+use CoffeeCode\Router\Router;
+
+$router = new Router(ROOT);
+
+/*
+ *  Controllers
+ */
+$router->namespace("Source\App");
+
+
+/*
+ * Web
+ */
+$router->group(null);
+
+$router->get("/", "Web:home");
+//$router->get("/projetos", "Web:recentProjects");
+//$router->get("/sobre", "Web:about");
+//$router->get("/contato", "Web:contact");
+
+/*
+ * Errors
+ */
+
+$router->group("ooops");
+$router->get("/{errcode}", "Web:error");
+
+
+$router->dispatch();
+
+if ($router->error()) {
+    $router->redirect("/ooops/{$router->error()}");
+}

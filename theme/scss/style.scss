@@ -1,0 +1,27 @@
+// Paleta de cores para o site
+$marrom: #280a08;
+$marrom_claro: #612d1d;
+$quase_branco: #f1e5d5;
+$vermelho_wood: #e45741;
+$body: #342e37;
+
+$theme-colors: (
+        "marrom": $marrom,
+        "quase_branco": $quase_branco,
+        "marrom_claro": $marrom_claro,
+        "vermelho_wood": $vermelho_wood,
+);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// Importando o Bootstrap e demais deps de scss
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+//Bootstrap classes replace
