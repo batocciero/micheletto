@@ -18,7 +18,8 @@ class Web
     public function home(): void
     {
         echo $this->view->render("home", [
-            "title" => "HOME ". SITE
+            "title" => "HOME ". SITE,
+            "pag" => "Giane"
         ]);
     }
 

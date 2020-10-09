@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Vinhos Louveira">
     <meta name="keywords" content="Vinhos Micheletto Vinhos Louveira">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="<?= url("/theme/css/style.css"); ?>"/>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-winenav">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,15 +26,15 @@
         <div class="collapse navbar-collapse text-black-50" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
 
-                <li id="lhome" class="nav-item active">
+                <li id="lhome" class="nav-item active mx-auto">
                     <a onclick="addClass('lhome')" class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
 
-                <li class="nav-item" id="lhistoria">
+                <li class="nav-item mx-auto" id="lhistoria">
                     <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="#">História</a>
                 </li>
 
-                <li  id="lprodutos" class="nav-item dropdown">
+                <li  id="lprodutos" class="nav-item dropdown mx-auto">
                     <a onclick="addClass('lprodutos')" class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Produtos
                     </a>
@@ -51,7 +51,7 @@
                     </div>
                 </li>
 
-                <li  id="lturismo" class="nav-item dropdown">
+                <li  id="lturismo" class="nav-item dropdown mx-auto">
                     <a onclick="addClass('lturismo')" class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Turismo
                     </a>
@@ -68,7 +68,7 @@
                     </div>
                 </li>
 
-                <li id="lservicos" class="nav-item dropdown">
+                <li id="lservicos" class="nav-item dropdown mx-auto">
                     <a onclick="addClass('lservicos')"  class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Serviços
                     </a>
@@ -85,7 +85,7 @@
                     </div>
                 </li>
 
-                <li id="leventos" class="nav-item dropdown">
+                <li id="leventos" class="nav-item dropdown mx-auto">
                     <a onclick="addClass('leventos')"  class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Eventos
                     </a>
@@ -102,7 +102,7 @@
                     </div>
                 </li>
 
-                <li id="lcuriosidades" class="nav-item">
+                <li id="lcuriosidades" class="nav-item mx-auto">
                     <a onclick="addClass('lcuriosidades')" class="font-weight-bold nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Curiosidades</a>
                 </li>
             </ul>
@@ -110,10 +110,21 @@
         </div>
     </nav>
 
-    <main class="main_content">
+    <!-- Header -->
+    <div class="bg-header">
+        <div class="container text-center">
+            <img class="img-fluid mx-auto"  src="<?= url("theme/img/Micheletto%20logo.png"); ?>" alt="Micheletto Logo">
+        </div>
+        <div class="text-center pb-2">
+           <span class="sh"> <i class="sh text-white fas fa-2x fa-chevron-down"></i></span>
+        </div>
+    </div>
+
+    <!-- main_content -->
+    <main class="">
         <?= $v->section("content"); ?>
     </main>
-    
+
 
 <!--    <div> -->
 <!--        <a class="whats whats-show" target="_blank" href="https://api.whatsapp.com/send?phone=+5511930113992&amp;text=Hi, Olá vim do site tuonmarcenaria.com.br">-->
@@ -121,13 +132,32 @@
 <!--        </a>-->
 <!--    </div>      -->
 
-    <footer >
-        <h3>Testando footer</h3>
+    <footer id="footer" class="bg-winenav">
+        <div class="container pt-2 pb-2">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
+                </div>
+            </div>
+        </div>
+        <div class="text-center bg-wine pt-1 pb-1">
+            <p class="mb-0" >Wofous!</p>
+        </div>
     </footer>
+
     <script src="<?= url("/theme/js/jquery.min.js"); ?>"></script>
     <script src="<?= url("/theme/js/popper.min.js"); ?>"></script>
     <script src="<?= url("/theme/js/bootstrap.min.js"); ?>"></script>
-    <script src="<?= url("/theme/js/all.min.js"); ?>"></script>
+    <script src="<?= url("/theme/js/all.min.js"); ?>"></script> <!-- Font Awesome -->
     <script src="<?= url("/theme/js/main.js"); ?>"></script>
 </body>
 </html>

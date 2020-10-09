@@ -1,22 +1,53 @@
 // Paleta de cores para o site
-$navbar: #AB9166;
-$header-color: #DFD6C8;
-$purple-wine: #7450AD;
-$title-color: #8E5566;
+$winenav: #AB9166;
+$header: #DFD6C8;
+$wine: #7450AD;
+$title: #8E5566;
 
 
 $theme-colors: (
-        "navbar": $navbar,
-        "header-color": $header-color,
-        "purple-wine": $purple-wine,
-        "title-color": $title-color,
-
+        "winenav": $winenav,
+        "header": $header,
+        "wine": $wine,
+        "title": $title,
 );
 
 * {
   margin: 0;
   padding: 0;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+// HOME PAGE
+.separator {
+  margin: 8vh;
+}
+
+.sh .fa-chevron-down{
+  text-shadow: 5px 5px 26px #000000;
+}
+
+.line {
+  background-image: url("../img/ret.svg");
+  height: auto;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  margin: auto;
+}
+
+.title-text {
+  color: $wine;
+  font-weight: bolder;
+  font-size: 22px;
+}
+// END OF HOME PAGE
 
 // Importando o Bootstrap e demais deps de scss
 @import "../node_modules/bootstrap/scss/bootstrap";
