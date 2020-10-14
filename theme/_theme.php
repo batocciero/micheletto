@@ -37,13 +37,12 @@
                         Produtos
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Produtos</a>
-                        <a class="dropdown-item" href="#">Vinhos</a>
-                        <a class="dropdown-item" href="#">Uvas</a>
-                        <a class="dropdown-item" href="#">Mudas de Uvas</a>
-                        <a class="dropdown-item" href="#">Flores</a>
-                        <a class="dropdown-item" href="#">Empório</a>
-                        <a class="dropdown-item" href="#">Cavalos</a>
+                        <a class="dropdown-item" href="<?= url("produtos/vinhos"); ?>" >Vinhos</a>
+                        <a class="dropdown-item" href="<?= url("produtos/uvas"); ?>">Uvas</a>
+                        <a class="dropdown-item" href="<?= url("produtos/mudasdeuvas"); ?>">Mudas de Uvas</a>
+                        <a class="dropdown-item" href="<?= url("produtos/flores"); ?>">Flores</a>
+                        <a class="dropdown-item" href="<?= url("produtos/emporio"); ?>">Empório</a>
+                        <a class="dropdown-item" href="<?= url("produtos/cavalos"); ?>">Cavalos</a>
 <!--                        <div class="dropdown-divider"></div>-->
 <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
                     </div>

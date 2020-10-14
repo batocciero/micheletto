@@ -1,19 +1,25 @@
 function getPageId(pgId) {
     try {
         let temp = document.getElementById(pgId).id
-        console.log("func getPageID",temp)
+        console.log("func getPageID", temp)
         return temp
     } catch(e) {
         // console.log(e)
-        return "err"
+        return e
     }
 
 }
 
-function getMyPage() {
+function linkAdderActive() {
     const pages = {
         "home": "lhome",
-        "historia": "lhistoria"
+        "historia": "lhistoria",
+        "vinhos": "lprodutos",
+        "uvas": "lprodutos",
+        "mudasdeuvas": "lprodutos",
+        "flores": "lprodutos",
+        "emporio": "lprodutos",
+        "cavalos": "lprodutos"
     }
 
     for (let [key, linkers] of Object.entries(pages)) {
@@ -22,4 +28,4 @@ function getMyPage() {
         }
     }
 }
-getMyPage()
+linkAdderActive()

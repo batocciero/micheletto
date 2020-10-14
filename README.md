@@ -10,9 +10,7 @@
 ##### Fav icon
 `<link rel="icon" href="<? url("/theme/img/Logo_Fav.svg.png"); ?>" />`
 
-
-
-## My old javascript
+## My old javascript active adder, just works on single pages
 
 ```js
 function whoIsActive() {
@@ -51,5 +49,4 @@ function removeClass (idName) {
         x.classList.remove("active")
     }
 }
-
 ```

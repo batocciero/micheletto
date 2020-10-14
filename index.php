@@ -18,9 +18,16 @@ $router->namespace("Source\App");
 $router->group(null);
 
 $router->get("/", "Web:home");
+
 $router->get("/historia", "Web:historia");
-$router->get("/sobre", "Web:about");
-$router->get("/contato", "Web:contact");
+
+// Produtos
+$router->get("/produtos/vinhos", "Web:vinhos");
+$router->get("/produtos/uvas", "Web:uvas");
+$router->get("/produtos/mudasdeuvas", "Web:mudasdeuvas");
+$router->get("/produtos/flores", "Web:flores");
+$router->get("/produtos/emporio", "Web:emporio");
+$router->get("/produtos/cavalos", "Web:cavalos");
 
 /*
  * Errors
