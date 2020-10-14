@@ -10,8 +10,6 @@
     <meta name="language" content="Portuguese">
     <meta http-equiv="Content-Type" content="text/php; charset=utf-8">
     <title><?= $title; ?></title>
-
-<!--    <link rel="icon" href="--><?//= url("/theme/img/Logo_Fav.svg.png"); ?><!--" />-->
 <!--    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet"/>-->
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= url("/theme/css/style.css"); ?>"/>
@@ -26,12 +24,12 @@
         <div class="collapse navbar-collapse text-black-50" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
 
-                <li id="lhome" class="nav-item active mx-auto">
-                    <a onclick="addClass('lhome')" class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+                <li id="lhome" class="nav-item mx-auto">
+                    <a onclick="addClass('lhome')" class="nav-link font-weight-bold" href="<?= url(); ?>">Home <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item mx-auto" id="lhistoria">
-                    <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="#">História</a>
+                    <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="<?= url("historia"); ?>">História</a>
                 </li>
 
                 <li  id="lprodutos" class="nav-item dropdown mx-auto">
@@ -116,35 +114,37 @@
             <img class="img-fluid mx-auto"  src="<?= url("theme/img/Micheletto%20logo.png"); ?>" alt="Micheletto Logo">
         </div>
         <div class="text-center pb-2">
-           <span class="sh"> <i class="sh text-white fas fa-2x fa-chevron-down"></i></span>
+           <img class="setinha img-fluid" src=" <?= url("theme/img/Setinha.png"); ?> " alt="Vinhos Louveira">
         </div>
     </div>
 
     <!-- main_content -->
     <main class="">
-        <?= $v->section("content"); ?>
+        <?= $v->section("content");?>
     </main>
 
 
 <!--    <div> -->
-<!--        <a class="whats whats-show" target="_blank" href="https://api.whatsapp.com/send?phone=+5511930113992&amp;text=Hi, Olá vim do site tuonmarcenaria.com.br">-->
+<!--        <a class="whats whats-show" target="_blank" href="https://api.whatsapp.com/send?phone=+5511930113992&amp;text=Hi,>-->
 <!--            <i class="fab fa-whatsapp-square fa-4x "></i>-->
 <!--        </a>-->
 <!--    </div>      -->
 
     <footer id="footer" class="bg-winenav">
-        <div class="container pt-2 pb-2">
-            <div class="row">
-                <div class="col-md-3">
+        <div class="container-flex  pt-2 pb-2">
+            <div class="row ml-0 mr-0 text-center">
+                <div class="col-3">
                     <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
                 </div>
-                <div class="col-md-3">
+                <div class="col-3">          
+  
+                    <img class="img-fluid" style="margin-top:5px;" src="<?= url("theme/img/footer/location.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
+
+                </div>
+                <div class="col-3">
                     <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
                 </div>
-                <div class="col-md-3">
-                    <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
-                </div>
-                <div class="col-md-3">
+                <div class="col-3">
                     <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
                 </div>
             </div>

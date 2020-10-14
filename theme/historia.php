@@ -1,6 +1,6 @@
-<?php $v->layout("_theme");?>
+﻿<?php $v->layout("_theme");?>
 
-<div id="home">
+<div id="historia">
 
     <div class="separator"></div>
 
@@ -25,7 +25,7 @@
                 <img class="img-fluid" src="<?= url("theme/img/home/home-img2.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
             </div>
             <div class="col-md-3">
-               <img class="img-fluid" src="<?= url("theme/img/home/home-img3.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
+                <img class="img-fluid" src="<?= url("theme/img/home/home-img3.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
             </div>
             <div class="col-md-3">
                 <img class="img-fluid" src="<?= url("theme/img/home/home-img4.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
@@ -34,3 +34,4 @@
     </div>
     <div class="separator"></div>
 </div>
+

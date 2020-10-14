@@ -18,9 +18,9 @@ $router->namespace("Source\App");
 $router->group(null);
 
 $router->get("/", "Web:home");
-//$router->get("/projetos", "Web:recentProjects");
-//$router->get("/sobre", "Web:about");
-//$router->get("/contato", "Web:contact");
+$router->get("/historia", "Web:historia");
+$router->get("/sobre", "Web:about");
+$router->get("/contato", "Web:contact");
 
 /*
  * Errors

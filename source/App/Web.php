@@ -18,31 +18,30 @@ class Web
     public function home(): void
     {
         echo $this->view->render("home", [
-            "title" => "HOME ". SITE,
-            "pag" => "Giane"
+            "title" => "HOME | ". SITE
         ]);
     }
 
-//    public function recentProjects(): void
-//    {
-//        echo $this->view->render("recentProjects", [
-//            "title" => "Projetos ". SITE
-//        ]);
-//    }
-//
-//    public function about(): void
-//    {
-//        echo $this->view->render("about", [
-//            "title" => "Sobre ". SITE
-//        ]);
-//    }
-//
-//    public function contact(): void
-//    {
-//        echo $this->view->render("contact", [
-//            "title" => "Contato ". SITE
-//        ]);
-//    }
+    public function historia(): void
+    {
+        echo $this->view->render("historia", [
+            "title" => "Historia | ". SITE
+        ]);
+    }
+
+    public function about(): void
+    {
+        echo $this->view->render("about", [
+            "title" => "Sobre | ". SITE
+        ]);
+    }
+
+    public function contact(): void
+    {
+        echo $this->view->render("contact", [
+            "title" => "Contato | ". SITE
+        ]);
+    }
 
 
     public function error(array $data): void
