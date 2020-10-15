@@ -24,15 +24,15 @@
         <div class="collapse navbar-collapse text-black-50" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
 
-                <li id="lhome" class="nav-item mx-auto">
+                <li id="lhome" class="nav-item">
                     <a onclick="addClass('lhome')" class="nav-link font-weight-bold" href="<?= url(); ?>">Home <span class="sr-only">(current)</span></a>
                 </li>
 
-                <li class="nav-item mx-auto" id="lhistoria">
+                <li class="nav-item" id="lhistoria">
                     <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="<?= url("historia"); ?>">História</a>
                 </li>
 
-                <li  id="lprodutos" class="nav-item dropdown mx-auto">
+                <li  id="lprodutos" class="nav-item dropdown">
                     <a onclick="addClass('lprodutos')" class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Produtos
                     </a>
@@ -48,7 +48,7 @@
                     </div>
                 </li>
 
-                <li  id="lturismo" class="nav-item dropdown mx-auto">
+                <li  id="lturismo" class="nav-item dropdown">
                     <a onclick="addClass('lturismo')" class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Turismo
                     </a>
@@ -65,7 +65,7 @@
                     </div>
                 </li>
 
-                <li id="lservicos" class="nav-item dropdown mx-auto">
+                <li id="lservicos" class="nav-item dropdown">
                     <a onclick="addClass('lservicos')"  class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Serviços
                     </a>
@@ -82,11 +82,11 @@
                     </div>
                 </li>
 
-                <li id="leventos" class="nav-item dropdown mx-auto">
+                <li id="leventos" class="nav-item dropdown">
                     <a onclick="addClass('leventos')"  class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Eventos
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Produtos</a>
                         <a class="dropdown-item" href="#">Vinhos</a>
                         <a class="dropdown-item" href="#">Uvas</a>
@@ -99,7 +99,7 @@
                     </div>
                 </li>
 
-                <li id="lcuriosidades" class="nav-item mx-auto">
+                <li id="lcuriosidades" class="nav-item">
                     <a onclick="addClass('lcuriosidades')" class="font-weight-bold nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Curiosidades</a>
                 </li>
             </ul>

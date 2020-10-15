@@ -1,0 +1,48 @@
+// THIS IS THE MAIN STYLE
+@import "themecolors";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+// HERE IS THE IMPORTS LIBS
+@import "home";
+@import "produtos";
+
+#footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: relative;
+}
+
+.setinha {
+    animation: setinha 4s infinite;
+}
+
+@keyframes setinha {
+  0% {
+    transform: translateY(7px);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(7px);
+  }
+}
+
+// Importando o Bootstrap e demais deps de scss
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+//Bootstrap classes replace

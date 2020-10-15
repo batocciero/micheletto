@@ -1,0 +1,22 @@
+@import "themecolors";
+
+.separator {
+  margin: 4vh;
+}
+
+.line {
+  background-image: url("../img/ret.svg");
+  height: auto;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  margin: auto;
+}
+
+.title-text-home {
+  color: $wine;
+  font-weight: bolder;
+  font-size: 19px;
+}
