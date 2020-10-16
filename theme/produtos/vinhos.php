@@ -177,7 +177,33 @@
 
         <div class="row">
             <div class="col-md-8 mr-auto">
-                <p class="text-center">d</p>
+                <div class="text-left mt-5">
+                    <h2 class="text-title m-0 p-0"><strong>Micheletto Rosas</strong></h2>
+                    <p class="text-title m-3 p-0"><strong>Vinho fino tinto seco</strong></p>
+                    <h4 class="mt-0 p-0"><strong>Ficha técnica</strong></h4>
+                    <br>
+                    <p class="m-0 p-0"><strong>LOCALIZAÇÃO DO VINHEDO:</strong> Sítio Santa Rita, Louveira, São Paulo, Brasil.</p>
+                    <p class="m-0 p-0"><strong>PRODUTORES RESPONSÁVEIS:</strong> Luiz Antônio dos Santos e Daniel Fernando Miqueletto .</p>
+                    <p class="m-0 p-0"><strong>IDADE DAS PLANTAS:</strong> 5 anos na ocasião da colheita.</p>
+                    <p class="m-0 p-0"><strong>VARIEDADES DE UVAS:</strong> 100% Syrah.</p>
+                    <p class="m-0 p-0"><strong>PORTA ENXERTO:</strong> 1103 Palsen.</p>
+                    <p class="m-0 p-0"><strong>NÚMERO DE PLANTAS POR HECTARES:</strong> 3.333.</p>
+                    <br>
+                    <p class="m-0 p-0"><strong>GRAU ALCOÓLICO:</strong></p>
+                    <p class="m-0 p-0"><strong>pH:</strong></p>
+                    <p class="m-0 p-0"><strong>ALTITUDE DO VINHEDO:</strong> 780 metros acima do nível do mar.</p>
+                    <p class="m-0 p-0"><strong>CLIMA:</strong> Subtropical - inverno seco com grande amplitude térmica diária.</p>
+                    <p class="m-0 p-0"><strong>IRRIGAÇÃO:</strong> Sem irrigação.</p>
+                    <p class="m-0 p-0"><strong>SISTEMA DE CONDUÇÃO:</strong> Espaldeira alta.</p>
+                    <p class="m-0 p-0"><strong>CONDUÇÃO E PODA:</strong> Cordão esporonado simples com dupla poda anual.</p>
+                    <p class="m-0 p-0"><strong>PRODUTIVIDADE:</strong> 6.000kg por hectare.</p>
+                    <p class="m-0 p-0"><strong>ÉPOCA DE COLHEITA:</strong> Agosto de 2020.</p>
+                    <p class="m-0 p-0"><strong>VINIFICAÇÃO:</strong>
+                    </p>
+                    <p class="m-0 p-0"><strong>TÉCNICO RESPONSÁVEL PELA ELABORAÇÃO DO VINHO:</strong> Isabela Peregrino.</p>
+                    <p class="m-0 p-0"><strong>LOCAL DA VINIFICAÇÃO:</strong> Vinícola Micheletto – Louveira – São Paulo - Brasil.</p>
+                    <p class="m-0 p-0"><strong>NÚMERO DE GARRAFAS:</strong></p>
+                </div>
             </div>
             <div class="col-md-4 ml-auto">
                 <img class="img-fluid" src="<?= url("theme/img/produtos/vinhos/finorosa.png"); ?>" alt="Vinhos Micheletto">
