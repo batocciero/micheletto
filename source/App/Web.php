@@ -12,13 +12,19 @@ class Web
     /**
      * @var Engine
      */
-    private $view;
+    private $view; // Esse serve para HOME, História e Curiosidades.
     private $products;
+    private $turismo;
+    private $servicos;
+    private $eventos;
 
     public function __construct()
     {
         $this->view = Engine::create(__DIR__."/../../theme", "php");
         $this->products = Engine::create(__DIR__ . "/../../theme/produtos", "php");
+        $this->turismo = Engine::create(__DIR__ . "/../../theme/turismo", "php");
+        $this->servicos = Engine::create(__DIR__ . "/../../theme/servicos", "php");
+        $this->eventos = Engine::create(__DIR__ . "/../../theme/eventos", "php");
     }
 
     public function home(): void
@@ -79,7 +85,38 @@ class Web
     }
     // Fim Produtos
 
+    // Turismo
+    public function monitorado(): void
+    {
+        echo $this->turismo->render("monitorado", [
+            "title" => "Roteiros Monitorados ". SITE
+        ]);
+    }
 
+    public function tecnico(): void
+    {
+        echo $this->turismo->render("tecnico", [
+        "title" => "Roteiros Técnicos ". SITE
+        ]);
+    }
+
+    public function pedagogico(): void
+    {
+        echo $this->turismo->render("pedagogico", [
+        "title" => "Roteiros Pedagógicos ". SITE
+        ]);
+    }
+
+    public function melhoridade(): void
+    {
+        echo $this->turismo->render("melhoridade", [
+        "title" => "Roteiros Melhor Idade ". SITE
+        ]);
+    }
+    // Fim Turismo
+
+    
+    // Error
     public function error(array $data): void
     {
         echo $this->view->render("error", [

@@ -7,7 +7,6 @@ function getPageId(pgId) {
         // console.log(e)
         return e
     }
-
 }
 
 function linkAdderActive() {
@@ -19,13 +18,16 @@ function linkAdderActive() {
         "mudasdeuvas": "lprodutos",
         "flores": "lprodutos",
         "emporio": "lprodutos",
-        "cavalos": "lprodutos"
+        "cavalos": "lprodutos",
+        "tecnico": "lturismo",
+        "pedagogico": "lturismo",
+        "melhoridade": "lturismo",
+        "monitorado": "lturismo",
+        "curiosidades": "lcuriosidades"
     }
 
-    for (let [key, linkers] of Object.entries(pages)) {
-        if (key === getPageId(key)){
-            return document.getElementById(linkers).classList.add("active")
-        }
+    for (let [key, linkers] of Object.entries(pages)) if (key === getPageId(key)) {
+        return document.getElementById(linkers).classList.add("active")
     }
 }
 linkAdderActive()

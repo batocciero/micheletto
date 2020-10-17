@@ -43,8 +43,7 @@
                         <a class="dropdown-item" href="<?= url("produtos/flores"); ?>">Flores</a>
                         <a class="dropdown-item" href="<?= url("produtos/emporio"); ?>">Empório</a>
                         <a class="dropdown-item" href="<?= url("produtos/cavalos"); ?>">Cavalos</a>
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                        <!-- <div class="dropdown-divider"></div> -->
                     </div>
                 </li>
 
@@ -53,15 +52,10 @@
                         Turismo
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Produtos</a>
-                        <a class="dropdown-item" href="#">Vinhos</a>
-                        <a class="dropdown-item" href="#">Uvas</a>
-                        <a class="dropdown-item" href="#">Mudas de Uvas</a>
-                        <a class="dropdown-item" href="#">Flores</a>
-                        <a class="dropdown-item" href="#">Empório</a>
-                        <a class="dropdown-item" href="#">Cavalos</a>
-                        <!--                        <div class="dropdown-divider"></div>-->
-                        <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                        <a class="dropdown-item" href="<?= url("turismo/monitorado"); ?>" >Passeio Monitorado</a>
+                        <a class="dropdown-item" href="<?= url("turismo/tecnico"); ?>" >Roteiros Técnicos</a>
+                        <a class="dropdown-item" href="<?= url("turismo/pedagogico"); ?>" >Roteiros Pedagógicos</a>
+                        <a class="dropdown-item" href="<?= url("turismo/melhoridade"); ?>">Roteiros Melhor Idade </a>
                     </div>
                 </li>
 
@@ -77,8 +71,6 @@
                         <a class="dropdown-item" href="#">Flores</a>
                         <a class="dropdown-item" href="#">Empório</a>
                         <a class="dropdown-item" href="#">Cavalos</a>
-                        <!--                        <div class="dropdown-divider"></div>-->
-                        <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
                     </div>
                 </li>
 
@@ -94,8 +86,6 @@
                         <a class="dropdown-item" href="#">Flores</a>
                         <a class="dropdown-item" href="#">Empório</a>
                         <a class="dropdown-item" href="#">Cavalos</a>
-                        <!--                        <div class="dropdown-divider"></div>-->
-                        <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
                     </div>
                 </li>
 
