@@ -2,7 +2,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" 
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Vinhos Louveira">
     <meta name="keywords" content="Vinhos Micheletto Vinhos Louveira">
@@ -17,7 +18,13 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-winenav">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button 
+            class="navbar-toggler" 
+            type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -98,9 +105,9 @@
     </nav>
 
     <!-- Header -->
-    <div class="bg-header">
+    <div class="bg-header ">
         <div class="container text-center">
-            <img class="img-fluid mx-auto"  src="<?= url("theme/img/Micheletto%20logo.png"); ?>" alt="Micheletto Logo">
+            <div class="header-width"></div>
         </div>
         <div class="text-center pb-2">
            <img class="setinha img-fluid" src=" <?= url("theme/img/Setinha.png"); ?> " alt="Vinhos Louveira">
@@ -119,27 +126,51 @@
 <!--        </a>-->
 <!--    </div>      -->
 
-    <footer id="footer" class="bg-winenav">
-        <div class="container-flex  pt-2 pb-2">
-            <div class="row ml-0 mr-0 text-center">
-                <div class="col-3">
-                    <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
-                </div>
-                <div class="col-3">          
-  
-                    <img class="img-fluid" style="margin-top:5px;" src="<?= url("theme/img/footer/location.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
-
-                </div>
-                <div class="col-3">
-                    <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
-                </div>
-                <div class="col-3">
-                    <img class="img-fluid" src="<?= url("theme/img/footer/associação%202.png"); ?>" alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
-                </div>
-            </div>
+    <footer id="footer" class="bg-winenav text-white">
+        <div class="container-footer">
+            <div class="footer1">
+                <img 
+                    src="<?= url("/theme/img/footer/first.png"); ?>" 
+                    class="mt-2 img-fuid" alt="Vinhos Louveira">
+            </div>   
+            <div class="footer2">
+                <img
+                    style="transform:translateY(10px);" 
+                    src="<?= url("/theme/img/footer/local.png"); ?>" 
+                    class="img-fluid" alt="Vinhos Louveira">
+                    Estrada Teresa Biseto Cestarolli, S/N
+                    <div class="" style="margin-left: 33px; transform: translateY(-10px);">
+                        Louveira, São Paulo.
+                    </div>
+            </div>   
+            <div class="footer3">
+                <img
+                    style="transform:translateY(6px);"  
+                    src="<?= url("/theme/img/footer/relogio.png"); ?>" 
+                    class="mt-2 img-fuid" alt="Vinhos Louveira">
+                    Segunda à Sábado das 8 ás 18 horas.
+                    <div  style="margin-left: 37px; transform: translateY(-10px);">
+                        Domingo das 8 às 14 horas.
+                    </div>
+            </div>   
+            <div class="footer4">
+                <img
+                    style="transform:translateY(10px);"  
+                    src="<?= url("/theme/img/footer/telefone.png"); ?>" 
+                    class="mt-2 img-fuid" alt="Vinhos Louveira">
+                    venhosmicheletto@outlook.com
+                    <div style="margin-left: 45px; transform: translateY(-15px);">
+                    (19) 99461-5802
+                    </div>
+            </div>   
+            <div class="footer5">
+                <i class="fab fa-2x fa-facebook-f"></i>
+                <i class="ml-2 fab fa-2x fa-instagram"></i>
+                <i class="ml-2 fab fa-2x fa-twitter"></i>
+            </div>   
         </div>
         <div class="text-center bg-wine pt-1 pb-1">
-            <p class="mb-0" >Wofous!</p>
+            <a class="text-header" href="https://wofous.com">Vinhos Micheletto Powered by wofous</a>
         </div>
     </footer>
 

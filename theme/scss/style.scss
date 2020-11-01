@@ -43,6 +43,81 @@ body {
   }
 }
 
+.header-width {
+  width: 700px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/Micheletto%20logo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-footer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
+  grid-gap: 7px;
+  font-size: 13px;
+  width: 100%;
+  // grid-template-rows: 20vh 70vh 10vh;
+}
+
+.footer1 {
+  margin:auto;
+}
+.footer2 {
+  margin:auto;
+}
+.footer3 {
+  margin:auto;
+}
+.footer4 {
+  margin:auto;
+}
+.footer5 {
+  margin:auto;
+}
+// RESPONSIVIDADE DE TODAS AS CLASSES DE TODOS OS ARQUIVOS VAI AQUI EM BAIXO
+
+// CELULAR
+@media only screen and (max-width: 799px) and (min-width: 100px) {
+  .container-footer {
+    grid-template-columns: 100%;
+    font-size: 15px;
+  }
+  .footer1 {
+    margin-top: 10px;
+  }
+  .footer2 {
+    margin-top: 10px;
+  }
+  .footer3 {
+    margin-top: 10px;
+  }
+  .footer4 {
+    margin-top: 10px;
+  }
+  .footer5 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+// HD 
+@media screen and (max-width: 1366px) and (min-width: 801px) {
+
+}
+
+// HD em diante
+@media screen and (min-width: 1367px) {
+  .header-width {
+    width: 700*1.6px;
+    height: 330*1.6px;
+  }
+}
+
+
 // Importando o Bootstrap e demais deps de scss
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";

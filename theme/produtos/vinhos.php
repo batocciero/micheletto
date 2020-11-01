@@ -53,7 +53,7 @@
         <div class="container-xl">
             <div class="row">
                 <div class="col-md-9  mx-auto">
-                    <h2 class="titulo2"><span class="spamer">Thumbnail <b>Carousel</b></span></h2>
+
                     <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
                         <!-- Carousel indicators -->
                         <ol class="carousel-indicators">
@@ -65,10 +65,34 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class="col-sm-3"><div class="img-fluid"><img src="<?= url("theme/img/produtos/vinhos/garrafa1.png"); ?>" class="img-fluid" alt=""></div></div>
-                                    <div class="col-sm-3"><div class="img-fluid"><img src="<?= url("theme/img/produtos/vinhos/garrafa1.png"); ?>" class="img-fluid" alt=""></div></div>
-                                    <div class="col-sm-3"><div class="img-fluid"><img src="<?= url("theme/img/produtos/vinhos/garrafa1.png"); ?>" class="img-fluid" alt=""></div></div>
-                                    <div class="col-sm-3"><div class="img-fluid"><img src="<?= url("theme/img/produtos/vinhos/garrafa1.png"); ?>" class="img-fluid" alt=""></div></div>
+                                    <div class="col-sm-3">
+                                        <div class="img-fluid">
+                                            <img 
+                                            src="<?= url("theme/img/produtos/vinhos/garrafa1.png"); ?>" 
+                                            class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="img-fluid">
+                                            <img 
+                                            src="<?= url("theme/img/produtos/vinhos/garrafa1.png"); ?>" 
+                                            class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="img-fluid">
+                                            <img 
+                                            src="<?= url("theme/img/produtos/vinhos/garrafa1.png"); ?>" 
+                                            class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="img-fluid">
+                                            <img 
+                                            src="<?= url("theme/img/produtos/vinhos/garrafa1.png"); ?>" 
+                                            class="img-fluid" alt="">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
