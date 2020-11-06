@@ -11,15 +11,15 @@
     <meta name="language" content="Portuguese">
     <meta http-equiv="Content-Type" content="text/php; charset=utf-8">
     <title><?= $title; ?></title>
-<!--    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet"/>-->
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!--   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet"/>  -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= url("/theme/css/style.css"); ?>"/>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-winenav">
-
+    <a class="navbar-brand d-block d-lg-none" style="font-weight: 500;" href="#">Vinhos Micheletto</a>
         <button 
-            class="navbar-toggler" 
+            class="navbar-toggler ml-auto" 
             type="button" data-toggle="collapse" 
             data-target="#navbarSupportedContent" 
             aria-controls="navbarSupportedContent" 
@@ -40,7 +40,7 @@
                 </li>
 
                 <li  id="lprodutos" class="nav-item dropdown">
-                    <a onclick="addClass('lprodutos')" class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a onclick="addClass('lprodutos')" class="nav-link dropdown-toggle font-weight-bold disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Produtos
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -55,7 +55,7 @@
                 </li>
 
                 <li  id="lturismo" class="nav-item dropdown">
-                    <a onclick="addClass('lturismo')" class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a onclick="addClass('lturismo')" class="nav-link dropdown-toggle font-weight-bold disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Turismo
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -67,7 +67,7 @@
                 </li>
 
                 <li id="lservicos" class="nav-item dropdown">
-                    <a onclick="addClass('lservicos')"  class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a onclick="addClass('lservicos')"  class="nav-link dropdown-toggle font-weight-bold disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Serviços
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -82,7 +82,7 @@
                 </li>
 
                 <li id="leventos" class="nav-item dropdown">
-                    <a onclick="addClass('leventos')"  class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a onclick="addClass('leventos')"  class="nav-link dropdown-toggle font-weight-bold disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Eventos
                     </a>
                     <div class="dropdown-menu " aria-labelledby="navbarDropdown">
@@ -105,11 +105,16 @@
     </nav>
 
     <!-- Header -->
-    <div class="bg-header ">
+    <div class="bg-header">
         <div class="container text-center">
-            <div class="header-width"></div>
+            <div class="w-100 d-none d-lg-block">
+                <img class="img-fluid w-100" src="<?= url("theme/img/header.jpg"); ?>" alt="Vinhos Louveira">
+            </div>
+            <div class="w-100 d-block d-lg-none">
+                <img class="img-fluid w-100" src="<?= url("theme/img/headermobile.jpg"); ?>" alt="Vinhos Louveira">
+            </div>
         </div>
-        <div class="text-center pb-2">
+        <div class="text-center divsetinha d-none d-lg-flex">
            <img class="setinha img-fluid" src=" <?= url("theme/img/Setinha.png"); ?> " alt="Vinhos Louveira">
         </div>
     </div>
@@ -118,13 +123,16 @@
     <main class="">
         <?= $v->section("content");?>
     </main>
-
-
-<!--    <div> -->
-<!--        <a class="whats whats-show" target="_blank" href="https://api.whatsapp.com/send?phone=+5511930113992&amp;text=Hi,>-->
-<!--            <i class="fab fa-whatsapp-square fa-4x "></i>-->
-<!--        </a>-->
-<!--    </div>      -->
+    
+    <!-- What's App Button -->
+    <div>
+        <a
+        class="whats whats-show"
+        target="_blank"
+        href="https://api.whatsapp.com/send?phone=+5519994615802&amp;text=Hi, Olá vim pelo site vinhosmicheletto.com.br">
+        <i class="fab fa-whatsapp-square fa-3x "></i>
+        </a>
+    </div>   
 
     <footer id="footer" class="bg-winenav text-white">
         <div class="container-footer">

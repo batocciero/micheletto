@@ -1,14 +1,12 @@
 ﻿<?php $v->layout("_theme");?>
 
 <div id="historia">
-    <div class="separator"></div>
-
-    <div class="title">
+<div class="title">
         <div class="container p-0">
-            <div class="row justify-content-center title">
-                <div class="col-2 p-0 m-0 text-right line"></div>
-                <div class="col-2 p-0 m-0 text-center title-text-home align-items-center mb-2">Nossa História</div>
-                <div class="col-2 p-0 m-0 text-left line"></div>
+            <div class="row mx-0 justify-content-center title">
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-right line"></div>
+                <p class="p-0 m-0 text-center title-text-home h3 font-weight-bold align-items-center mb-2">Nossa História</p>
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-left line"></div>
             </div>
         </div>
     </div>
@@ -24,7 +22,7 @@
             vinhos.
         </p>
 
-        <img class="img-fluid" src="<?= url("theme/img/historia/flag.png"); ?>" alt="Vinhos Micheletto">
+        <img class="img-fluid mb-3" src="<?= url("theme/img/historia/flag.png"); ?>" alt="Vinhos Micheletto">
 
         <p class="text-justify">
             Remanescentes do histórico cultivo da Uva Niágara Rosada ainda predominante na região do Circuito das Frutas Paulista,
@@ -34,12 +32,12 @@
             propriedade são iniciativas que agregam valor a atividade e ao seu principal produto: A UVA!
         </p>
 
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/historia/himg-left.png"); ?>" alt="Vinhos Micheletto">
+        <div class="row mb-3">
+            <div class="col-md-6 pr-md-2 mb-3 mb-md-0">
+                <img class="img-fluid w-100" src="<?= url("theme/img/historia/himg-left.png"); ?>" alt="Vinhos Micheletto">
             </div>
-            <div class="col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/historia/himg-right.png"); ?>" alt="Vinhos Micheletto">
+            <div class="col-md-6 pl-md-2">
+                <img class="img-fluid w-100" src="<?= url("theme/img/historia/himg-right.png"); ?>" alt="Vinhos Micheletto">
             </div>
         </div>
 
@@ -52,9 +50,9 @@
             térmica característico da tradicional região cafeeira do sudeste brasileiro.
         </p>
 
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-md-12">
-                <img class="img-fluid" src="<?= url("theme/img/historia/wideone.png"); ?>" alt="Vinhos Micheletto">
+                <img class="img-fluid w-100" src="<?= url("theme/img/historia/wideone.png"); ?>" alt="Vinhos Micheletto">
             </div>
         </div>
 
@@ -67,16 +65,16 @@
             que optarem pela realização dos passeios monitorados.
         </p>
 
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/historia/uva-left.png"); ?>" alt="Vinhos Micheletto">
+        <div class="row mb-3">
+            <div class="col-md-6 pr-md-2 mb-3 mb-md-0">
+                <img class="img-fluid w-100 h-100" src="<?= url("theme/img/historia/uva-left.png"); ?>" alt="Vinhos Micheletto">
             </div>
-            <div class="col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/historia/uva-right.png"); ?>" alt="Vinhos Micheletto">
+            <div class="col-md-6 pl-md-2">
+                <img class="img-fluid w-100" src="<?= url("theme/img/historia/uva-right.png"); ?>" alt="Vinhos Micheletto">
             </div>
         </div>
 
-        <p class="text-justify">
+        <p class="text-justify mb-3 mb-md-5">
             <strong>Nossa Missão:</strong> contribuir para manutenção das características rurais das microbacias dos Córregos Passarinho e
             Barreiro, importantes mananciais das águas que abastecem o município de Louveira. Manter um posicionamento
             empreendedor e sustentável motivando outros produtores rurais e conscientizando a população em geral de que a

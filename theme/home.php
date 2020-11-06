@@ -1,42 +1,36 @@
 <?php $v->layout("_theme");?>
 
 <div id="home">
-
     <div class="separator"></div>
-
     <div class="title">
         <div class="container p-0">
-            <div class="row justify-content-center title">
-                <div class="col-2 p-0 m-0 text-right line"></div>
-                <div class="col-2 p-0 m-0 text-center title-text-home align-items-center mb-2">
-                    Vinhos & Vinhedos
-                </div>
-                <div class="col-2 p-0 m-0 text-left line"></div>
+            <div class="row mx-0 justify-content-center title">
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-right line"></div>
+                <p class="p-0 m-0 text-center title-text-home h3 font-weight-bold align-items-center mb-2">Vinhos & Vinhedos</p>
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-left line"></div>
             </div>
         </div>
     </div>
-
-    <div class="separator"></div>
-
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-12 col-lg-3 col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/home/home-img1.png"); ?>" 
+    <div class="container-fluid px-md-5 ml-auto mr-auto mt-md-3">
+        <div class="row mx-0 px-md-5 text-center">
+            <div class="col-6 col-lg-3 col-md-6 pt-4 pr-2 pl-0 mx-0">
+                <img class="img-fluid w-100" src="<?= url("theme/img/home/home-img1.png"); ?>" 
                 alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
             </div>
-            <div class="mt-5 mt-md-0  col-12 col-lg-3 col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/home/home-img2.png"); ?>" 
+            <div class="col-6 col-lg-3 col-md-6 pt-4 pl-2 pr-0 pr-lg-2 mx-0">
+                <img class="img-fluid w-100" src="<?= url("theme/img/home/home-img2.png"); ?>" 
                 alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
             </div>
-            <div class="mt-5 mt-lg-0 mt-md-5 col-12 col-lg-3 col-md-6">
-               <img class="img-fluid" src="<?= url("theme/img/home/home-img3.png"); ?>" 
+            <div class="col-6 col-lg-3 col-md-6 pt-4 pr-2 pl-0 pl-lg-2 mx-0">
+               <img class="img-fluid w-100" src="<?= url("theme/img/home/home-img3.png"); ?>" 
                alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
             </div>
-            <div class="mt-5 mt-lg-0 mt-md-5 col-12 col-lg-3 col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/home/home-img4.png"); ?>" 
+            <div class="col-6 col-lg-3 col-md-6 pt-4 pl-2 pr-0 mx-0">
+                <img class="img-fluid w-100" src="<?= url("theme/img/home/home-img4.png"); ?>" 
                 alt="Vinhos Micheletto Contato e Endereço Vinhos Louveira">
             </div>
         </div>
-    </div>
-    <div class="separator"></div>
+    </div> 
+    <div class="separator mb-5"></div>
 </div>
+
