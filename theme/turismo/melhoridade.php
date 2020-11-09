@@ -24,19 +24,19 @@
             Frutas, Mudas de Uva, etc... Peça um orçamento através do nosso Whats App!
         </p>
 
-        <div class="row">
-            <div class="col-md-4">
-                <img class="img-fluid" src="<?= url("theme/img/turismo/melhoridade/melhor1.png"); ?>" alt="Vinhos Louveira">
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <div class="bg-janela-melhoridade"></div>
             </div>
-            <div class="col-md-4">
-                <img class="img-fluid" src="<?= url("theme/img/turismo/melhoridade/melhor2.png"); ?>" alt="Vinhos Louveira">
+            <div class="col-md-4 mt-2 mt-md-0">
+                <div class="bg-verde-melhoridade"></div>
             </div>
-            <div class="col-md-4">
-                <img class="img-fluid" src="<?= url("theme/img/turismo/melhoridade/melhor3.png"); ?>" alt="Vinhos Louveira">
+            <div class="col-md-5 mt-2 mt-md-0">
+                <div class="bg-mesa-melhoridade"></div>
             </div>
         </div>
 
-        <p class="m-0 p-0 text-center">
+        <p class="m-0 p-0 text-center mb-5 mt-5">
             Aos finais de semana são disponibilizados aos grupos de melhor idade as mesmas
             três opções e condições dos Passeios Monitorados convencionais.
         </p>

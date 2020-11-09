@@ -4,10 +4,10 @@
 
     <div class="title">
         <div class="container p-0">
-            <div class="row justify-content-center title">
-                <div class="col-2 p-0 m-0 text-right line"></div>
-                <div class="col-2 p-0 m-0 text-center title-text-home align-items-center mb-2">Flores</div>
-                <div class="col-2 p-0 m-0 text-left line"></div>
+            <div class="row mx-0 justify-content-center title">
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-right line"></div>
+                <p class="p-0 m-0 text-center title-text-home h3 font-weight-bold align-items-center mb-2">Flores</p>
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-left line"></div>
             </div>
         </div>
     </div>
@@ -16,18 +16,18 @@
 
     <div class="container text-center">
 
-        <h4 class="text-wine text-center">Na Vinícola Micheletto você encontrará sempre um ambiente florido e alegre!</h4>
+        <p class="text-wine font-weight-bolder title-size m-0 mt-5">Na Vinícola Micheletto você encontrará sempre um ambiente florido e alegre!</p>
 
-        <div class="row">
+        <div class="row mb-5 mt-2">
             <div class="col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/produtos/flores/flores-casa.png"); ?>" alt="Vinhos Louveira">
+                <img class="img-fluid" src="<?= url("theme/img/produtos/flores/img1.png"); ?>" alt="Vinhos Louveira">
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/produtos/flores/flores-rosa-amarela.png"); ?>" alt="Vinhos Louveira">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/produtos/flores/img2.png"); ?>" alt="Vinhos Louveira">
             </div>
         </div>
 
-        <h4 class="text-wine text-center">Viveiro de plantas</h4>
+        <p class="text-center text-wine font-weight-bolder title-size m-0 mt-5">Viveiro de plantas</p>
 
         <p class="m-0 p-0 text-justify">
             Nosso viveiro de plantas ornamentais e frutíferas fica ao lado da Vinícola. No espaço são comercializadas flores,
@@ -35,27 +35,27 @@
             época do ano.
         </p>
 
-        <div class="row">
+        <div class="row mt-2">
             <div class="col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/produtos/flores/flores-meio.png"); ?>" alt="Vinhos Louveira">
+                <img class="img-fluid" src="<?= url("theme/img/produtos/flores/img3.png"); ?>" alt="Vinhos Louveira">
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/produtos/flores/flores-meio-rosa.png"); ?>" alt="Vinhos Louveira">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/produtos/flores/img4.png"); ?>" alt="Vinhos Louveira">
             </div>
         </div>
 
-        <h4 class="text-wine text-center">Parede Verde</h4>
+        <p class="text-wine font-weight-bolder title-size m-0 mt-5">Parede Verde</p>
 
-        <p class="m-0 p-0 text-justify">
+        <p class="m-0 p-0 text-center">
             Numa parceria com as empresas PLASNOVA TUBOS E MONDO IRRIGAÇÃO foi criada a nossa PAREDE VERDE, local
             onde o visitante pode fazer fotos e buscar informações sobre esse interessante trabalho paisagístico!
         </p>
 
-        <img class="img-fluid" src="<?= url("theme/img/produtos/flores/flor-verde.png"); ?>" alt="Vinhos Louveira">
+        <img class="img-fluid mt-4" src="<?= url("theme/img/produtos/flores/img5.png"); ?>" alt="Vinhos Louveira">
 
-        <h4 class="text-wine text-center">Para saber mais acesse os sites!</h4>
+        <p class="text-wine font-weight-bolder title-size m-0 mt-5">Para saber mais acesse os sites!</p>
 
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-md-6">
                 <a target="_blank" href="https://www.mondoirrigacao.com.br/">
                     <img class="img-fluid" src="<?= url("theme/img/produtos/flores/mundo-irrigacao.png"); ?>" alt="Vinhos Louveira">
@@ -63,7 +63,7 @@
             </div>
             <div class="col-md-6">
                 <a target="_blank" href="http://www.plasnovatubos.com.br/ptubos/">
-                    <img class="img-fluid" src="<?= url("theme/img/produtos/flores/plasnova.png"); ?>" alt="Vinhos Louveira">
+                    <img class="img-fluid mt-3 mt-mb-0" src="<?= url("theme/img/produtos/flores/plasnova.png"); ?>" alt="Vinhos Louveira">
                 </a>
             </div>
         </div>

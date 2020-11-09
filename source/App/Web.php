@@ -115,6 +115,29 @@ class Web
     }
     // Fim Turismo
 
+    // Curiosidades
+    public function curiosidades(): void
+    {
+        echo $this->view->render("curiosidades", [
+            "title" => "Curiosidades ". SITE
+        ]);
+    }
+
+    // Eventos
+    public function eventos(): void
+    {
+        echo $this->view->render("eventos", [
+            "title" => "Eventos ". SITE
+        ]);
+    }
+
+    // Serviços
+    public function servicos(): void
+    {
+        echo $this->view->render("servicos", [
+            "title" => "Serviços ". SITE
+        ]);
+    }
     
     // Error
     public function error(array $data): void

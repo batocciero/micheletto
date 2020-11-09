@@ -1,7 +1,7 @@
 ﻿<?php $v->layout("_theme");?>
 
 <div id="historia">
-<div class="title">
+    <div class="title">
         <div class="container p-0">
             <div class="row mx-0 justify-content-center title">
                 <div class="d-none d-lg-block col-2 p-0 m-0 text-right line"></div>
@@ -59,9 +59,9 @@
         <p class="text-justify">
             Com uma filosofia sustentada em pilares econômicos, sociais e ambientais, a Vinícola Micheletto busca a
             preservação de uma cultura que se iniciou com muito trabalho e suor àpartir da vinda dos antepassados italianos
-            que, após atravessarem o Atlântico, substituírem a mão de obra escrava e verem a decadência do café no início do
+            que, após atravessarem o Atlântico, substituírem a mão de obra escrava e verem a partir do café no início do
             século XX, encontraram no cultivo da uva a oportunidade para criar raízes na América. No Sítio Santa Rita há um
-            grande respeito por todo esse trabalho e memória, e é isso que o visitante irá encontrar, principalmente àqueles
+            grande respeito por todo esse trabalho e memória! É isso que o visitante irá encontrar, principalmente àqueles
             que optarem pela realização dos passeios monitorados.
         </p>
 

@@ -23,7 +23,9 @@ function linkAdderActive() {
         "pedagogico": "lturismo",
         "melhoridade": "lturismo",
         "monitorado": "lturismo",
-        "curiosidades": "lcuriosidades"
+        "curiosidades": "lcuriosidades",
+        "servicos": "lservicos",
+        "eventos": "leventos"
     }
 
     for (let [key, linkers] of Object.entries(pages)) if (key === getPageId(key)) {

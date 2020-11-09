@@ -16,7 +16,7 @@
 
     <div class="container">
 
-        <h4 class="text-wine">Informações</h4>
+        <p class="text-wine font-weight-bolder title-size m-0 mt-5">Informações</p>
         <p class="m-0 p-0"><strong>Valor:
             </strong> R$ 50,00/pessoa (grupo com no mínimo 5 pessoas... para grupos menores taxa mínima de R$ 500,00).
         </p>
@@ -29,15 +29,15 @@
             administradores públicos, amantes da vitivinicultura....
         </p>
 
-        <div class="row">
+        <div class="row mt-5 mb-5">
             <div class="col-md-4">
                 <img class="img-fluid" src="<?= url("theme/img/turismo/tecnico/tec-uvas.png"); ?>" alt="Vinhos Louveira">
             </div>
             <div class="col-md-4">
-                <img class="img-fluid" src="<?= url("theme/img/turismo/tecnico/tec-p1.png"); ?>" alt="Vinhos Louveira">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/turismo/tecnico/tec-p1.png"); ?>" alt="Vinhos Louveira">
             </div>
             <div class="col-md-4">
-                <img class="img-fluid" src="<?= url("theme/img/turismo/tecnico/tec-uvas2.png"); ?>" alt="Vinhos Louveira">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/turismo/tecnico/tec-uvas2.png"); ?>" alt="Vinhos Louveira">
             </div>
         </div>
 
@@ -76,20 +76,19 @@
                 <img class="img-fluid" src="<?= url("theme/img/turismo/tecnico/tec-pessoas.png"); ?>" alt="Vinhos Louveira">
             </div>
             <div class="col-md-4">
-                <img class="img-fluid" src="<?= url("theme/img/turismo/tecnico/tec-pessoas2.png"); ?>" alt="Vinhos Louveira">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/turismo/tecnico/tec-pessoas2.png"); ?>" alt="Vinhos Louveira">
             </div>
             <div class="col-md-4">
-                <img class="img-fluid" src="<?= url("theme/img/turismo/tecnico/tec-pessoas3.png"); ?>" alt="Vinhos Louveira">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/turismo/tecnico/tec-pessoas3.png"); ?>" alt="Vinhos Louveira">
             </div>
         </div>
 
-        <h4 class="text-center">OBSERVAÇÕES</h4>
-        <p class="m-0 p-0 text-center">
+        <p class="text-center font-weight-bolder title-size m-0 mt-5">OBSERVAÇÕES</p>
+        <p class="m-0 p-0 text-center pb-3 mb-5">
             há possibilidade de ao final da
             apresentação ser realizada uma degustação simples ou a degustação com vinhos finos
             oriundos do terroir de inverno... consulte os valores!
         </p>
-
     </div>
 
 </div>

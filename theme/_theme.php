@@ -40,22 +40,22 @@
                 </li>
 
                 <li  id="lprodutos" class="nav-item dropdown">
-                    <a onclick="addClass('lprodutos')" class="nav-link dropdown-toggle font-weight-bold disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a onclick="addClass('lprodutos')" class="nav-link dropdown-toggle font-weight-bold " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Produtos
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="<?= url("produtos/vinhos"); ?>" >Vinhos</a>
+                        <a class="dropdown-item disabled" href="<?= url("produtos/vinhos"); ?>" >Vinhos</a>
                         <a class="dropdown-item" href="<?= url("produtos/uvas"); ?>">Uvas</a>
                         <a class="dropdown-item" href="<?= url("produtos/mudasdeuvas"); ?>">Mudas de Uvas</a>
                         <a class="dropdown-item" href="<?= url("produtos/flores"); ?>">Flores</a>
-                        <a class="dropdown-item" href="<?= url("produtos/emporio"); ?>">Empório</a>
+                        <a class="dropdown-item disabled" href="<?= url("produtos/emporio"); ?>">Empório</a>
                         <a class="dropdown-item" href="<?= url("produtos/cavalos"); ?>">Cavalos</a>
                         <!-- <div class="dropdown-divider"></div> -->
                     </div>
                 </li>
 
                 <li  id="lturismo" class="nav-item dropdown">
-                    <a onclick="addClass('lturismo')" class="nav-link dropdown-toggle font-weight-bold disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a onclick="addClass('lturismo')" class="nav-link dropdown-toggle font-weight-bold " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Turismo
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -66,38 +66,16 @@
                     </div>
                 </li>
 
-                <li id="lservicos" class="nav-item dropdown">
-                    <a onclick="addClass('lservicos')"  class="nav-link dropdown-toggle font-weight-bold disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Serviços
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Produtos</a>
-                        <a class="dropdown-item" href="#">Vinhos</a>
-                        <a class="dropdown-item" href="#">Uvas</a>
-                        <a class="dropdown-item" href="#">Mudas de Uvas</a>
-                        <a class="dropdown-item" href="#">Flores</a>
-                        <a class="dropdown-item" href="#">Empório</a>
-                        <a class="dropdown-item" href="#">Cavalos</a>
-                    </div>
+                <li id="lservicos" class="nav-item">
+                    <a onclick="addClass('lcuriosidades')" class="font-weight-bold nav-link " href="<?= url("servicos"); ?>" tabindex="-1" aria-disabled="true">Serviços</a>
                 </li>
 
-                <li id="leventos" class="nav-item dropdown">
-                    <a onclick="addClass('leventos')"  class="nav-link dropdown-toggle font-weight-bold disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Eventos
-                    </a>
-                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Produtos</a>
-                        <a class="dropdown-item" href="#">Vinhos</a>
-                        <a class="dropdown-item" href="#">Uvas</a>
-                        <a class="dropdown-item" href="#">Mudas de Uvas</a>
-                        <a class="dropdown-item" href="#">Flores</a>
-                        <a class="dropdown-item" href="#">Empório</a>
-                        <a class="dropdown-item" href="#">Cavalos</a>
-                    </div>
+                <li id="leventos" class="nav-item">
+                    <a onclick="addClass('lcuriosidades')" class="font-weight-bold nav-link " href="<?= url("eventos"); ?>" tabindex="-1" aria-disabled="true">Eventos</a>
                 </li>
 
                 <li id="lcuriosidades" class="nav-item">
-                    <a onclick="addClass('lcuriosidades')" class="font-weight-bold nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Curiosidades</a>
+                    <a onclick="addClass('lcuriosidades')" class="font-weight-bold nav-link " href="<?= url("curiosidades"); ?>" tabindex="-1" aria-disabled="true">Curiosidades</a>
                 </li>
             </ul>
 
@@ -156,7 +134,7 @@
                     style="transform:translateY(6px);"  
                     src="<?= url("/theme/img/footer/relogio.png"); ?>" 
                     class="mt-2 img-fuid" alt="Vinhos Louveira">
-                    Segunda à Sábado das 8 ás 18 horas.
+                    Segunda a Sábado das 8 às 18 horas.
                     <div  style="margin-left: 37px; transform: translateY(-10px);">
                         Domingo das 8 às 14 horas.
                     </div>
@@ -166,7 +144,7 @@
                     style="transform:translateY(10px);"  
                     src="<?= url("/theme/img/footer/telefone.png"); ?>" 
                     class="mt-2 img-fuid" alt="Vinhos Louveira">
-                    venhosmicheletto@outlook.com
+                    vinhosmicheletto@outlook.com
                     <div style="margin-left: 45px; transform: translateY(-15px);">
                     (19) 99461-5802
                     </div>

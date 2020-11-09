@@ -4,17 +4,17 @@
 
     <div class="title">
         <div class="container p-0">
-            <div class="row justify-content-center title">
-                <div class="col-2 p-0 m-0 text-right line"></div>
-                <div class="col-2 p-0 m-0 text-center title-text-home align-items-center mb-2">Mudas de Uva</div>
-                <div class="col-2 p-0 m-0 text-left line"></div>
+            <div class="row mx-0 justify-content-center title">
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-right line"></div>
+                <p class="p-0 m-0 text-center title-text-home h3 font-weight-bold align-items-center mb-2">Mudas de Uvas</p>
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-left line"></div>
             </div>
         </div>
     </div>
 
     <div class="separator"></div>
 
-    <h4 class="text-wine text-center">Mudas de Uva Enxertadas para Cultivos Comerciais – raiz nua.</h4>
+    <p class="text-wine font-weight-bolder title-size text-center">Mudas de Uva Enxertadas para Cultivos Comerciais – raiz nua.</p>
 
     <div class="container text-center">
         <p class="m-0 p-0 text-justify">
@@ -31,40 +31,39 @@
             Campinas, Circuito das Frutas, podendo atuar também em outras regiões paulistas.
         </p>
 
-        <div class="row">
+        <div class="row mt-2">
             <div class="col-md-3">
-                <img class="img-fluid" src="<?= url("theme/img/produtos/mudasdeuvas/muda-roxa.png"); ?>" alt="Vinhos Micheletto">
+                <img class="mt-1 mt-md-0 img-fluid" src="<?= url("theme/img/produtos/mudasdeuvas/img1.png"); ?>" alt="Vinhos Micheletto">
             </div>
             <div class="col-md-3">
-                <img class="img-fluid" src="<?= url("theme/img/produtos/mudasdeuvas/muda-aberta.png"); ?>" alt="Vinhos Micheletto">
+                <img class="mt-1 mt-md-0 img-fluid" src="<?= url("theme/img/produtos/mudasdeuvas/img2.png"); ?>" alt="Vinhos Micheletto">
             </div>
             <div class="col-md-3">
-                <img class="img-fluid" src="<?= url("theme/img/produtos/mudasdeuvas/muda-raiz.png"); ?>" alt="Vinhos Micheletto">
+                <img class="mt-1 mt-md-0 img-fluid" src="<?= url("theme/img/produtos/mudasdeuvas/img3.png"); ?>" alt="Vinhos Micheletto">
             </div>
             <div class="col-md-3">
-                <img class="img-fluid" src="<?= url("theme/img/produtos/mudasdeuvas/muda-caixa.png"); ?>" alt="Vinhos Micheletto">
+                <img class="mt-1 mt-md-0 img-fluid" src="<?= url("theme/img/produtos/mudasdeuvas/img4.png"); ?>" alt="Vinhos Micheletto">
             </div>
         </div>
 
         <br>
         <br>
 
-        <p class="m-0 p-0 text-justify">
+        <p class="m-0 p-0 text-center text-md-justify mb-4">
             Além do consolidado clone da Niágara Rosada Guarani a Vitácea Brasil possuí licença para multiplicação das variedades
             e clones dos principais obtentores e selecionadores mundiais, tais como ENTAV (França), Sun World (USA), Grappa
             (USA), SNFL (Espanha) e Embrapa (Brasil). Confira a disponibilidade no site
             <a target="_blank" class="text-wine" href="https://www.vitaceabrasil.com.br/">www.vitaceabrasil.com.br.</a>
         </p>
 
-        <h5 class="text-center">
+        <p class="font-weight-bolder title-size m-0 mt-2 mb-5">
             <strong>
                 Maiores informações e encomendas através do: <br>
-
                 telefone / whats app: (19) 99732-5953 ou do e mail: miqueletto@hotmail.com
             </strong>
-        </h5>
+        </p>
 
-        <h4 class="text-wine text-center">Mudas de Uva Enxertadas para Cultivos Comerciais – raiz nua.</h4>
+        <p class="text-wine font-weight-bolder title-size m-0 mt-5">Mudas de Uva Enxertadas para Cultivos Comerciais – raiz nua.</p>
 
         <p class="m-0 p-0 text-justify">
             Com objetivo de atender a demanda de clientes que desejam possuir e cuidar de suas próprias videiras a Vinícola
@@ -72,9 +71,9 @@
             estrutura de copa e raízes aptas ao transplante para jardins e pequenos pomares.
         </p>
 
-        <img class="img-fluid" src="<?= url("theme/img/produtos/mudasdeuvas/muda-vazos.png"); ?>" alt="Vinhos Louveira">
+        <img class="img-fluid mt-3 mb-5" src="<?= url("theme/img/produtos/mudasdeuvas/img5.png"); ?>" alt="Vinhos Louveira">
 
-        <p class="m-0 p-0 text-justify">
+        <p class="m-0 p-0 text-justify mt-3 mb-5 pb-3">
             Após seu plantio e desenvolvimento em estufa climatizada as mudas são disponibilizadas ao público no início de
             dezembro, sendo comercializadas em unidades até o término do lote anual. As variedades de mudas de videira
             normalmente disponíveis nesse formato são: Niagara Rosada, Isabel Precoce e BRS Vitória. O material genético

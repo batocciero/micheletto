@@ -40,6 +40,21 @@ $router->get("/turismo/melhoridade", "Web:melhoridade");
 $router->get("/turismo/monitorado", "Web:monitorado");
 
 /*
+ * Curiosidades
+ */
+$router->get("/curiosidades", "Web:curiosidades");
+
+/*
+ * Eventos
+ */
+$router->get("/eventos", "Web:eventos");
+
+/*
+ * Serviços
+ */
+$router->get("/servicos", "Web:servicos");
+
+/*
  * Errors
  */
 $router->group("ooops");

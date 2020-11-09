@@ -164,9 +164,6 @@ body {
     width: 700*1.6px;
     height: 330*1.6px;
   }
-  #footer {
-    position: fixed;
-  }
 }
 
 
@@ -202,6 +199,19 @@ body {
   visibility: visible;
 }
 
+.title-size {
+  font-size: 20px;
+}
+
+// Celular apenas, não tablet
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+  .bg-janela-melhoridade {
+    height: 45vh;
+  }
+  .title-size {
+    font-size: 17px;
+  }
+}
 
 // Importando o Bootstrap e demais deps de scss
 @import "../../node_modules/bootstrap/scss/bootstrap";
