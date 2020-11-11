@@ -17,7 +17,7 @@
     <div class="container text-center">
 
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Na Vinícola Micheletto você encontrará sempre um ambiente florido e alegre!</p>
-
+        <br>
         <div class="row mb-5 mt-2">
             <div class="col-md-6">
                 <img class="img-fluid" src="<?= url("theme/img/produtos/flores/img1.png"); ?>" alt="Vinhos Louveira">
@@ -28,7 +28,7 @@
         </div>
 
         <p class="text-center text-wine font-weight-bolder title-size m-0 mt-5">Viveiro de plantas</p>
-
+        <br>
         <p class="m-0 p-0 text-justify">
             Nosso viveiro de plantas ornamentais e frutíferas fica ao lado da Vinícola. No espaço são comercializadas flores,
             suculentas e mudas frutíferas fornecidas por viveiros parceiros e que variam em função da disponibilidade em cada
@@ -45,28 +45,14 @@
         </div>
 
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Parede Verde</p>
-
+        <br>
         <p class="m-0 p-0 text-center">
             Numa parceria com as empresas PLASNOVA TUBOS E MONDO IRRIGAÇÃO foi criada a nossa PAREDE VERDE, local
             onde o visitante pode fazer fotos e buscar informações sobre esse interessante trabalho paisagístico!
         </p>
 
-        <img class="img-fluid mt-4" src="<?= url("theme/img/produtos/flores/img5.png"); ?>" alt="Vinhos Louveira">
+        <img class="img-fluid mt-4 mb-5" src="<?= url("theme/img/produtos/flores/img5.png"); ?>" alt="Vinhos Louveira">
 
-        <p class="text-wine font-weight-bolder title-size m-0 mt-5">Para saber mais acesse os sites!</p>
-
-        <div class="row mb-5">
-            <div class="col-md-6">
-                <a target="_blank" href="https://www.mondoirrigacao.com.br/">
-                    <img class="img-fluid" src="<?= url("theme/img/produtos/flores/mundo-irrigacao.png"); ?>" alt="Vinhos Louveira">
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a target="_blank" href="http://www.plasnovatubos.com.br/ptubos/">
-                    <img class="img-fluid mt-3 mt-mb-0" src="<?= url("theme/img/produtos/flores/plasnova.png"); ?>" alt="Vinhos Louveira">
-                </a>
-            </div>
-        </div>
     </div>
 </div>
 

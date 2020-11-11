@@ -38,7 +38,7 @@
 
         <p class="m-0 p-0 text-center mb-5 mt-5">
             Aos finais de semana são disponibilizados aos grupos de melhor idade as mesmas
-            três opções e condições dos Passeios Monitorados convencionais.
+            duas opções e condições dos Passeios Monitorados convencionais.
         </p>
     </div>
 </div>

@@ -5,10 +5,10 @@
 
     <div class="title">
         <div class="container p-0">
-            <div class="row justify-content-center title">
-                <div class="col-2 p-0 m-0 text-right line"></div>
-                <div class="col-2 p-0 m-0 text-center title-text-home align-items-center mb-2">Vinhos</div>
-                <div class="col-2 p-0 m-0 text-left line"></div>
+            <div class="row mx-0 justify-content-center title">
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-right line"></div>
+                <p class="p-0 m-0 text-center title-text-home h3 font-weight-bold align-items-center mb-2">Vinhos</p>
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-left line"></div>
             </div>
         </div>
     </div>

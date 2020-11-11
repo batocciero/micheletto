@@ -20,3 +20,10 @@
   font-weight: bolder;
   font-size: 19px;
 }
+
+// Fixed on bottom only on home page and only on 1080p
+@media screen and (min-height: 1080px) {
+  .footer-fixed {
+    position: fixed !important;
+  }
+}

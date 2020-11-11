@@ -17,12 +17,14 @@
     <div class="container">
 
         <p class="text-wine font-weight-bolder title-size m-0">Proposta</p>
+        <br>
         <p class="m-0 p-0 text-justify mb-5">
             Disponibilização do roteiro pedagógico e vivência rural abaixo descrito para dias de semana e com duração aproximada de
             três horas.
         </p>
 
         <p class="text-wine font-weight-bolder title-size m-0">Objetivo Principal</p>
+        <br>
         <p class="m-0 p-0 text-justify mb-5">
             Proporcionar aos alunos uma atividade extraclasse diferenciada e inovadora, onde ilustrações de fatos e paisagens reais
             do ambiente rural serão utilizados visando uma melhor assimilação de temas relacionados ao homem do campo, sua
@@ -40,6 +42,7 @@
         </div>
 
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Introdução</p>
+        <br>
         <!-- Start Text with drop down -->
         <div class="m-0 p-0 text-justify mb-3">
             Ao formatar o presente Roteiro Turístico Pedagógico o Sítio Santa Rita / Vinícola Micheletto espera proporcionar aos
@@ -52,6 +55,7 @@
             </span>
             <div id="intro">
                 <div id="introducao" class="collapse" aria-labelledby="#intro" data-parent="#intro">
+                    <br>
                     <div >
                         Não
                         menos importante é mostrar aos alunos que, apesar de cada vez menos viável, a atividade agrícola mal conduzida ainda
@@ -77,6 +81,7 @@
         </div>
 
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Metodologia</p>
+        <br>
 
         <!-- Start Text with drop down -->
         <div class="m-0 p-0 text-justify mb-5">
@@ -241,6 +246,7 @@
         </div>
 
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Valores</p>
+        <br>
         <p class="m-0 p-0 text-justify">
             R$ 40,00 por aluno grupo com no mínimo 20 alunos <br>
 
@@ -250,6 +256,7 @@
         </p>
 
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Atividades Adicionais</p>
+        <br>
         <p class="m-0 p-0 text-justify">
             O roteiro proposto poderá ser incrementado com atividades opcionais viabilizadas através de um aumento do tempo de
             permanência e/ou de uma adequação ao tempo proposto no roteiro básico onde se reduz o conteúdo da ESTAÇÃO 2 e,

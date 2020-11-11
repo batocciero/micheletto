@@ -17,11 +17,17 @@
         <p class="text-wine font-weight-bolder title-size m-0 ">
             QUIOSQUE MICHELETTO
         </p>
-
+        <br>
         <p class="text-justify">
-            Ao lado da Vinícola e em meio aos parreirais do Sítio Santa Rita você encontra o Quiosque Micheletto, ambiente aconchegante ideal para um bate papo entre amigos! Além dos vinhos o local também oferece outras bebidas e porções que podem ser degustados num mirante onde se visualiza o vale repleto de parreiras... Confira nosso cardápio!
+            Ao lado da Vinícola e em meio aos parreirais do Sítio Santa Rita você encontra o Quiosque Micheletto,
+            ambiente aconchegante ideal para um bate papo entre amigos! Além dos vinhos o local também oferece outras
+            bebidas e porções que podem ser degustados num mirante onde se visualiza o vale repleto de parreiras...
+            <a class="font-weight-bold text-wine" href="<?= url("theme/download/servicos/CARDAPIO_MICHELETTO.pdf"); ?>" download>
+                Confira nosso cardápio!
+            </a>
             <br> <br>
-            <strong>Horário de Funcionamento do Quiosque:</strong> sexta-feira das 17h às 22h, sábados das 10h às 22h e domingos: das 10h às 18h.
+            <strong>Horário de Funcionamento do Quiosque:</strong> sexta-feira das 17h às 22h, sábados das 10h às 22h
+            e domingos: das 10h às 18h.
         </p>
 
 

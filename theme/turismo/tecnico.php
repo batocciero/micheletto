@@ -16,9 +16,8 @@
 
     <div class="container">
 
-        <p class="text-wine font-weight-bolder title-size m-0 mt-5">Informações</p>
         <p class="m-0 p-0"><strong>Valor:
-            </strong> R$ 50,00/pessoa (grupo com no mínimo 5 pessoas... para grupos menores taxa mínima de R$ 500,00).
+            </strong> R$ 50,00/pessoa (grupo com no mínimo 10 pessoas... para grupos menores taxa mínima de R$ 500,00).
         </p>
         <p class="m-0 p-0"><strong>Duração aproximada: </strong>150min.</p>
         <p class="m-0 p-0"><strong>Horários: </strong>experiência para grupos fechados... data e horário devem ser pré agendados.</p>

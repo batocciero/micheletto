@@ -14,7 +14,7 @@
 
     <div class="separator"></div>
 
-    <div class="container">
+    <div class="container mb-4">
         <ul class="ml-2 m-md-0">
             <li>Você conhece a história da viticultura no Brasil?</li>
             <li>Sabe porque os imigrantes italianos foram os grandes impulsores da viticultura no Circuito das Frutas Paulista?</li>
@@ -34,14 +34,14 @@
             <li>Os fatores que determinam a grande diferença de preços entre os diferentes tipos de vinhos...</li>
         </ul>
         <br>
-        <p class="font-weight-bold">Isso e muito mais você poderá conhecer nos nossos passeios monitorados!</p>
-        <br>
-        <p class="text-justify">
-            Experimentar os sabores da terra é viver a terra... Uma caminhada repleta de informações históricas e técnicas em meio aos parreirais e a pequena planta agroindustrial da Vinícola Micheletto. No final uma degustação dos nossos produtos tendo como pano de fundo os vinhedos do Bairro Cestarolli... é isso que oferecemos nos nossos passeios monitorados!
-        </p>
-        <br>
-        <p class="text-justify">
-            Os passeios turísticos monitorados devem ser agendados com antecedência e há opções de roteiros convencionais, técnicos e para melhor idade! Consulte aqui as opções.
-        </p>
+<!--        <p class="font-weight-bold">Isso e muito mais você poderá conhecer nos nossos passeios monitorados!</p>-->
+<!--        <br>-->
+<!--        <p class="text-justify">-->
+<!--            Experimentar os sabores da terra é viver a terra... Uma caminhada repleta de informações históricas e técnicas em meio aos parreirais e a pequena planta agroindustrial da Vinícola Micheletto. No final uma degustação dos nossos produtos tendo como pano de fundo os vinhedos do Bairro Cestarolli... é isso que oferecemos nos nossos passeios monitorados!-->
+<!--        </p>-->
+<!--        <br>-->
+<!--        <p class="text-justify">-->
+<!--            Os passeios turísticos monitorados devem ser agendados com antecedência e há opções de roteiros convencionais, técnicos e para melhor idade! Consulte aqui as opções.-->
+<!--        </p>-->
     </div>
 </div>

@@ -46,10 +46,10 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item disabled" href="<?= url("produtos/vinhos"); ?>" >Vinhos</a>
                         <a class="dropdown-item" href="<?= url("produtos/uvas"); ?>">Uvas</a>
-                        <a class="dropdown-item" href="<?= url("produtos/mudasdeuvas"); ?>">Mudas de Uvas</a>
-                        <a class="dropdown-item" href="<?= url("produtos/flores"); ?>">Flores</a>
+                        <a class="dropdown-item " href="<?= url("produtos/mudasdeuvas"); ?>">Mudas de Uvas</a>
+                        <a class="dropdown-item " href="<?= url("produtos/flores"); ?>">Flores</a>
                         <a class="dropdown-item disabled" href="<?= url("produtos/emporio"); ?>">Empório</a>
-                        <a class="dropdown-item" href="<?= url("produtos/cavalos"); ?>">Cavalos</a>
+                        <a class="dropdown-item " href="<?= url("produtos/cavalos"); ?>">Cavalos</a>
                         <!-- <div class="dropdown-divider"></div> -->
                     </div>
                 </li>
@@ -59,22 +59,22 @@
                         Turismo
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="<?= url("turismo/monitorado"); ?>" >Passeio Monitorado</a>
-                        <a class="dropdown-item" href="<?= url("turismo/tecnico"); ?>" >Roteiros Técnicos</a>
+                        <a class="dropdown-item " href="<?= url("turismo/monitorado"); ?>" >Passeio Monitorado</a>
+                        <a class="dropdown-item " href="<?= url("turismo/tecnico"); ?>" >Roteiros Técnicos</a>
                         <a class="dropdown-item" href="<?= url("turismo/pedagogico"); ?>" >Roteiros Pedagógicos</a>
-                        <a class="dropdown-item" href="<?= url("turismo/melhoridade"); ?>">Roteiros Melhor Idade </a>
+                        <a class="dropdown-item " href="<?= url("turismo/melhoridade"); ?>">Roteiros Melhor Idade </a>
                     </div>
                 </li>
 
-                <li id="lservicos" class="nav-item">
-                    <a onclick="addClass('lcuriosidades')" class="font-weight-bold nav-link " href="<?= url("servicos"); ?>" tabindex="-1" aria-disabled="true">Serviços</a>
+                <li id="lservicos" class="nav-item ">
+                    <a onclick="addClass('lservicos')" class="font-weight-bold nav-link " href="<?= url("servicos"); ?>" tabindex="-1" aria-disabled="true">Serviços</a>
                 </li>
 
                 <li id="leventos" class="nav-item">
-                    <a onclick="addClass('lcuriosidades')" class="font-weight-bold nav-link " href="<?= url("eventos"); ?>" tabindex="-1" aria-disabled="true">Eventos</a>
+                    <a onclick="addClass('leventos')" class="font-weight-bold nav-link " href="<?= url("eventos"); ?>" tabindex="-1" aria-disabled="true">Eventos</a>
                 </li>
 
-                <li id="lcuriosidades" class="nav-item">
+                <li id="lcuriosidades" class="nav-item ">
                     <a onclick="addClass('lcuriosidades')" class="font-weight-bold nav-link " href="<?= url("curiosidades"); ?>" tabindex="-1" aria-disabled="true">Curiosidades</a>
                 </li>
             </ul>

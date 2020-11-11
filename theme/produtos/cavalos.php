@@ -16,7 +16,7 @@
 
     <div class="container">
         <p class="text-wine font-weight-bolder title-size m-0 text-center">CRIAÇÃO, COMERCIALIZAÇÃO E HOSPEDAGEM DE EQUINOS.</p>
-
+        <br>
         <p class="m-0 p-0 text-justify">
             Além das uvas e dos vinhos uma segunda paixão envolve os proprietários do Sítio Santa Rita são os eqüinos criados na
             propriedade. Se você está a procura de um animal para passeio entre em contato conosco! Mantemos no local uma pequena,
@@ -36,7 +36,7 @@
             </div>
         </div>
 
-        <p class="m-0 p-0">
+        <p class="m-0 p-0 text-justify">
             Também disponibilizamos o serviço de hospedagem no Estábulo São Francisco, localizado num ponto estratégico que oferece
             ao cavaleiro diversas opções de roteiros em meio a muita natureza, plantações de frutas e muito mais! Local ideal para
             acomodar seus animais.

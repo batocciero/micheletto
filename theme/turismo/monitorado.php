@@ -32,6 +32,7 @@
         </div>
 
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Opção 1. Passeio da Uva ao Vinho com degustação básica</p>
+        <br>
         <p><strong>Valor:</strong> R$ 35,00/pessoa (grupo com no mínimo 10 pessoas... para grupos menores taxa mínima de R$ 350,00).</p>
         <p><strong>Duração aproximada:</strong> 60 Minutos.</p>
         <p><strong>Horários:</strong>  experiência para grupos fechados... data e horário devem ser pré agendados.</p>
@@ -100,6 +101,7 @@
 
         <!-- OPÇÃO 2 -->
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Opção 2. Passeio da Uva ao Vinho com degustação de vinhos finos oriundos do terroir de inverno</p>
+        <br>
         <p><strong>Valor:</strong>  R$ 90,00/pessoa (grupo com no mínimo 5 pessoas... para grupos menores taxa mínima de R$ 450,00).</p>
         <p><strong>Duração aproximada:</strong> 120 Minutos.</p>
         <p><strong>Horários:</strong>  experiência para grupos fechados... data e horário devem ser pré agendados.</p>
@@ -143,7 +145,7 @@
                     <li>água mineral com e sem gás</li>
                     <li>grappa</li>
                     <li>espumante colheita de inverno (produtor parceiro)</li>
-                    <li>vinho fino branco colheita de inverno (produtor parceiro</li>
+                    <li>vinho fino branco colheita de inverno (produtor parceiro)</li>
                     <li>vinho fino rose Micheletto Rosas syrah </li>
                     <li>vinho fino tinto Micheletto syrah colheita de inverno </li>
                 </ul>
