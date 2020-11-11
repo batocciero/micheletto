@@ -109,7 +109,10 @@
         target="_blank"
         href="https://api.whatsapp.com/send?phone=+5519994615802&amp;text=Hi, Olá vim pelo site vinhosmicheletto.com.br">
         <i class="fab fa-whatsapp-square fa-3x "></i>
+        <span class="fundo-branco whats whats-show "></span>
         </a>
+
+<!--        <div class="bg-whats whats whats-show"></div>-->
     </div>   
 
     <footer id="footer" class="bg-winenav text-white">
