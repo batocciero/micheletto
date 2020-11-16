@@ -39,6 +39,16 @@
                     <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="<?= url("historia"); ?>">História</a>
                 </li>
 
+                
+                <li class="nav-item" id="lhistoria">
+                    <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="<?= url("produtos/vinhos"); ?>">vinho</a>
+                </li>
+
+                
+                <li class="nav-item" id="lhistoria">
+                    <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="<?= url("produtos/emporio"); ?>">emporio</a>
+                </li>
+
                 <li  id="lprodutos" class="nav-item dropdown">
                     <a onclick="addClass('lprodutos')" class="nav-link dropdown-toggle font-weight-bold " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Produtos
