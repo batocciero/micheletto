@@ -63,8 +63,10 @@
             </strong>
         </p>
 
-        <p class="text-wine font-weight-bolder title-size m-0 mt-5">Mudas de Uva Enxertadas para Cultivos Comerciais – raiz nua.</p>
-
+        <p class="text-wine font-weight-bolder title-size m-0 mt-5">
+            Mudas de Uva Enxertadas para Cultivos Domésticos.
+        </p>
+        <br>
         <p class="m-0 p-0 text-justify">
             Com objetivo de atender a demanda de clientes que desejam possuir e cuidar de suas próprias videiras a Vinícola
             Micheletto produz um lote anual de mudas enxertadas acondicionadas em vasos plásticos e comercializadas com
