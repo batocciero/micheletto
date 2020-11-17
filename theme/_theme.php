@@ -12,7 +12,7 @@
     <meta http-equiv="Content-Type" content="text/php; charset=utf-8">
     <title><?= $title; ?></title>
     <!--   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet"/>  -->
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="<?= url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"); ?>" rel="stylesheet">
     <link rel="stylesheet" href="<?= url("/theme/css/style.css"); ?>"/>
 </head>
 <body>
@@ -39,16 +39,6 @@
                     <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="<?= url("historia"); ?>">História</a>
                 </li>
 
-                
-                <li class="nav-item" id="lhistoria">
-                    <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="<?= url("produtos/vinhos"); ?>">vinho</a>
-                </li>
-
-                
-                <li class="nav-item" id="lhistoria">
-                    <a onclick="addClass('lhistoria')" class="nav-link font-weight-bold" href="<?= url("produtos/emporio"); ?>">emporio</a>
-                </li>
-
                 <li  id="lprodutos" class="nav-item dropdown">
                     <a onclick="addClass('lprodutos')" class="nav-link dropdown-toggle font-weight-bold " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Produtos
@@ -58,7 +48,7 @@
                         <a class="dropdown-item" href="<?= url("produtos/uvas"); ?>">Uvas</a>
                         <a class="dropdown-item " href="<?= url("produtos/mudasdeuvas"); ?>">Mudas de Uvas</a>
                         <a class="dropdown-item " href="<?= url("produtos/flores"); ?>">Flores</a>
-                        <a class="dropdown-item disabled" href="<?= url("produtos/emporio"); ?>">Empório</a>
+                        <a class="dropdown-item " href="<?= url("produtos/emporio"); ?>">Empório</a>
                         <a class="dropdown-item " href="<?= url("produtos/cavalos"); ?>">Cavalos</a>
                         <!-- <div class="dropdown-divider"></div> -->
                     </div>
