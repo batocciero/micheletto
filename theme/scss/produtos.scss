@@ -51,6 +51,54 @@
 }
 // FIM VINHOS CARROSSEL
 
+// VINHOS FINOS
+.title-vinhos-finos {
+  color: $title;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.finos-legenda {
+  font-size: 14px;
+}
+
+.top-space-finos {
+  margin-top: 7rem;
+}
+
+.final-space-finos {
+  margin-bottom: 7rem;
+}
+
+.garrafa-fina {
+  height: 640px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+  .garrafa-fina {
+    height: 320px;
+  }
+  .title-vinhos-finos {
+    font-size: 20px;
+  }
+  .finos-legenda {
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
+  .garrafa-fina {
+    height: 420px;
+  }
+}
+
+//.vinhos-height {
+//  width: 350px;
+//  height: 600px;
+//}
+
+// FIM VINHOS FINOS
 
 // EMPORIO
 

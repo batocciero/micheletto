@@ -35,13 +35,13 @@
             - Suco de Uva Integral Micheletto Branco – elaborado com um corte de uvas Niagara Branca e Moscatel - garrafas com 1Lt e 2Lts.
         </p>
         <br class="d-block d-md-none">
-        <p class="m-0 p-0 text-justify">
-            A Vinícola Micheletto ainda não possuí os equipamentos para elaboração de sucos de uva integrais e por isso formalizou uma
-            parceria com a
-            Vinícola Casagranda, localizada em Flores da Cunha na Serra Gaúcha... uma verdadeira referência quando o
-            assunto é suco de uva no Brasil.
-            <a class="text-wine text-md-left" href="http://sucoscasagranda.com.br/">Confira acessando: <br class="d-block d-md-none"> www.sucoscasanobre.com.br</a>
-        </p>
+<!--        <p class="m-0 p-0 text-justify">-->
+<!--            A Vinícola Micheletto ainda não possuí os equipamentos para elaboração de sucos de uva integrais e por isso formalizou uma-->
+<!--            parceria com a-->
+<!--            Vinícola Casagranda, localizada em Flores da Cunha na Serra Gaúcha... uma verdadeira referência quando o-->
+<!--            assunto é suco de uva no Brasil.-->
+<!--            <a class="text-wine text-md-left" href="http://sucoscasagranda.com.br/">Confira acessando: <br class="d-block d-md-none"> www.sucoscasanobre.com.br</a>-->
+<!--        </p>-->
 
         <div class="row mt-3 text-center">
             <div class="col-md-6">

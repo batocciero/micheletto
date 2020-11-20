@@ -44,8 +44,8 @@
                         Produtos
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item disabled" href="<?= url("produtos/vinhos"); ?>" >Vinhos</a>
-                        <a class="dropdown-item" href="<?= url("produtos/uvas"); ?>">Uvas</a>
+                        <a class="dropdown-item " href="<?= url("produtos/vinhos"); ?>" >Vinhos</a>
+                        <a class="dropdown-item " href="<?= url("produtos/uvas"); ?>">Uvas</a>
                         <a class="dropdown-item " href="<?= url("produtos/mudasdeuvas"); ?>">Mudas de Uvas</a>
                         <a class="dropdown-item " href="<?= url("produtos/flores"); ?>">Flores</a>
                         <a class="dropdown-item " href="<?= url("produtos/emporio"); ?>">Empório</a>

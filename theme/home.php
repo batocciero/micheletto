@@ -12,6 +12,14 @@
         </div>
     </div>
     <div class="container-fluid px-md-5 ml-auto mr-auto mt-md-3">
+
+        <div class="text-center">
+            <h5 class="text-title font-weight-bold">Horário de Funcionamento do Quiosque</h5>
+            <p class="font-weight-bold text-wine">
+                sexta-feira das 17h às 22h, sábados das 10h às 22h e domingos: das 10h às 18h.
+            </p>
+        </div>
+
         <div class="row mx-0 px-md-5 text-center">
             <div class="col-6 col-lg-3 col-md-6 pt-4 pr-2 pl-0 mx-0">
                 <img class="img-fluid w-100" src="<?= url("theme/img/home/home-img1.png"); ?>" 
