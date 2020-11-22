@@ -88,25 +88,28 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-3 px-5">
+                        
+                                                <div class="col-3 px-5">
                             <div class="vinho-card">
-                                <img src="<?= url("theme/img/produtos/vinhos/carr/vinho2.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Tinto Seco</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/brancosecomoscatel.jpeg"); ?>" class="vinhos-height w-100 " alt="">
+                                <p class="text-white text-center mt-2 mb-0 h5">Seco Moscatel</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Lorena</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
+
+
                         <div class="col-3 px-5">
                             <div class="vinho-card">
                                 <img src="<?= url("theme/img/produtos/vinhos/carr/tintosuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
                                 <p class="text-white text-center mt-2 mb-0 h5">Tinto Suave</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
                         <div class="col-3 px-5">
                             <div class="vinho-card">
                                 <img src="<?= url("theme/img/produtos/vinhos/carr/rosesuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Rosê Suave</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <p class="text-white text-center mt-2 mb-0 h5">Rosé Suave</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
                     </div>
@@ -117,66 +120,30 @@
                             <div class="vinho-card">
                                 <img src="<?= url("theme/img/produtos/vinhos/carr/tintosuave2.jpeg"); ?>" class="vinhos-height w-100 " alt="">
                                 <p class="text-white text-center mt-2 mb-0 h5">Tinto Suave</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
                         <div class="col-3 px-5">
                             <div class="vinho-card">
                                 <img src="<?= url("theme/img/produtos/vinhos/carr/brancosuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
                                 <p class="text-white text-center mt-2 mb-0 h5">Branco Suave</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Niagara</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
                         <div class="col-3 px-5">
                             <div class="vinho-card">
                                 <img src="<?= url("theme/img/produtos/vinhos/carr/roseseco.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Rosê Seco</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <p class="text-white text-center mt-2 mb-0 h5">Rosé Seco</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
                         <div class="col-3 px-5">
                             <div class="vinho-card">
                                 <img src="<?= url("theme/img/produtos/vinhos/carr/brancomoscatel.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Branco Moscatel</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <p class="text-white text-center mt-2 mb-0 h5">Demi Sec Moscatel</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Lorena</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-item px-4">
-                    <div class="row mx-0 px-5 my-5">
-                        <div class="col-3 px-5">
-                            <div class="vinho-card">
-                                <img src="<?= url("theme/img/produtos/vinhos/carr/brancosecomoscatel.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Branco Seco Moscatel</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
-                            </div>
-                        </div>
-
-
-<!--                        <div class="col-3 px-5">-->
-<!--                            <div class="vinho-card">-->
-<!--                                <img src="https://via.placeholder.com/350x600" class="w-100" alt="">-->
-<!--                                <p class="text-white mt-2 mb-0 h5 text-center">NOME DO VINHO</p>-->
-<!--                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-3 px-5">-->
-<!--                            <div class="vinho-card">-->
-<!--                                <img src="https://via.placeholder.com/350x600" class="w-100" alt="">-->
-<!--                                <p class="text-white mt-2 mb-0 h5 text-center">NOME DO VINHO</p>-->
-<!--                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-3 px-5">-->
-<!--                            <div class="vinho-card">-->
-<!--                                <img src="https://via.placeholder.com/350x600" class="w-100" alt="">-->
-<!--                                <p class="text-white mt-2 mb-0 h5 text-center">NOME DO VINHO</p>-->
-<!--                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        -->
-
                     </div>
                 </div>
             </div>
@@ -199,60 +166,55 @@
                     <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
-                <div class="vinho-card">
-                    <img src="<?= url("theme/img/produtos/vinhos/carr/vinho2.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Tinto Seco</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
-                </div>
-            </div>
+
+
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
                     <img src="<?= url("theme/img/produtos/vinhos/carr/tintosuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
                     <p class="text-white text-center mt-2 mb-0 h5">Tinto Suave</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
                     <img src="<?= url("theme/img/produtos/vinhos/carr/rosesuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Rosê Suave</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <p class="text-white text-center mt-2 mb-0 h5">Rosé Suave</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
                     <img src="<?= url("theme/img/produtos/vinhos/carr/tintosuave2.jpeg"); ?>" class="vinhos-height w-100 " alt="">
                     <p class="text-white text-center mt-2 mb-0 h5">Tinto Suave</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
                     <img src="<?= url("theme/img/produtos/vinhos/carr/brancosuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
                     <p class="text-white text-center mt-2 mb-0 h5">Branco Suave</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Niagara</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
                     <img src="<?= url("theme/img/produtos/vinhos/carr/roseseco.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Rosê Seco</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <p class="text-white text-center mt-2 mb-0 h5">Rosé Seco</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
                     <img src="<?= url("theme/img/produtos/vinhos/carr/brancomoscatel.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Branco Moscatel</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <p class="text-white text-center mt-2 mb-0 h5">Demi Sec Moscatel</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Lorena</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
                     <img src="<?= url("theme/img/produtos/vinhos/carr/brancosecomoscatel.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Branco Seco Moscatel</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <p class="text-white text-center mt-2 mb-0 h5">Seco Moscatel</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Lorena</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
 
