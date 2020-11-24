@@ -93,10 +93,16 @@
   }
 }
 
-//.vinhos-height {
-//  width: 350px;
-//  height: 600px;
-//}
+.vinho-descicao {
+  font-size: 17px;
+  margin-bottom: 0.4rem !important;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+  .vinho-descicao {
+    font-size: 15px;
+  }
+}
 
 // FIM VINHOS FINOS
 

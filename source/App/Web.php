@@ -30,14 +30,16 @@ class Web
     public function home(): void
     {
         echo $this->view->render("home", [
-            "title" => "HOME ". SITE
+            "title"     => "HOME ". SITE,
+            "mobile"    => "Home"
         ]);
     }
 
     public function historia(): void
     {
         echo $this->view->render("historia", [
-            "title" => "História ". SITE
+            "title"     => "História ". SITE,
+            "mobile"    => "História"
         ]);
     }
 
@@ -45,42 +47,48 @@ class Web
     public function vinhos(): void
     {
         echo $this->products->render("vinhos", [
-            "title" => "Vinhos ". SITE
+            "title"     => "Vinhos ". SITE,
+            "mobile"    => "Vinhos"
         ]);
     }
 
     public function uvas(): void
     {
         echo $this->products->render("uvas", [
-            "title" => "Uvas ". SITE
+            "title"     => "Uvas ". SITE,
+            "mobile"    => "Uvas"
         ]);
     }
 
     public function mudasdeuvas(): void
     {
         echo $this->products->render("mudasdeuvas", [
-            "title" => "Mudas de Uvas ". SITE
+            "title"     => "Mudas de Uvas ". SITE,
+            "mobile"    => "Mudas de Uvas"
         ]);
     }
 
     public function flores(): void
     {
         echo $this->products->render("flores", [
-            "title" => "Flores ". SITE
+            "title"     => "Flores ". SITE,
+            "mobile"    => "Flores"
         ]);
     }
 
     public function emporio(): void
     {
         echo $this->products->render("emporio", [
-            "title" => "Empório ". SITE
+            "title"     => "Empório ". SITE,
+            "mobile"    => "Empório"
         ]);
     }
 
     public function cavalos(): void
     {
         echo $this->products->render("cavalos", [
-            "title" => "Cavalos ". SITE
+            "title"     => "Cavalos ". SITE,
+            "mobile"    => "Cavalos"
         ]);
     }
     // Fim Produtos
@@ -89,28 +97,32 @@ class Web
     public function monitorado(): void
     {
         echo $this->turismo->render("monitorado", [
-            "title" => "Roteiros Monitorados ". SITE
+            "title"     => "Roteiros Monitorados ". SITE,
+            "mobile"    => "Passeios Monitorados"
         ]);
     }
 
     public function tecnico(): void
     {
         echo $this->turismo->render("tecnico", [
-        "title" => "Roteiros Técnicos ". SITE
+            "title"     => "Roteiros Técnicos ". SITE,
+            "mobile"    => "Técnico em Vinicultura"
         ]);
     }
 
     public function pedagogico(): void
     {
         echo $this->turismo->render("pedagogico", [
-        "title" => "Roteiros Pedagógicos ". SITE
+            "title"     => "Roteiros Pedagógicos ". SITE,
+            "mobile"    => "Roteiros Pedagógicos"
         ]);
     }
 
     public function melhoridade(): void
     {
         echo $this->turismo->render("melhoridade", [
-        "title" => "Roteiros Melhor Idade ". SITE
+            "title"     => "Roteiros Melhor Idade ". SITE,
+            "mobile"    => "Melhor Idade"
         ]);
     }
     // Fim Turismo
@@ -119,7 +131,8 @@ class Web
     public function curiosidades(): void
     {
         echo $this->view->render("curiosidades", [
-            "title" => "Curiosidades ". SITE
+            "title"     => "Curiosidades ". SITE,
+            "mobile"    => "Curiosidades"
         ]);
     }
 
@@ -127,7 +140,8 @@ class Web
     public function eventos(): void
     {
         echo $this->view->render("eventos", [
-            "title" => "Eventos ". SITE
+            "title"     => "Eventos ". SITE,
+            "mobile"    => "Eventos"
         ]);
     }
 
@@ -135,7 +149,8 @@ class Web
     public function servicos(): void
     {
         echo $this->view->render("servicos", [
-            "title" => "Serviços ". SITE
+            "title"     => "Serviços ". SITE,
+            "mobile"    => "Serviços"
         ]);
     }
     
@@ -143,9 +158,9 @@ class Web
     public function error(array $data): void
     {
         echo $this->view->render("error", [
-            "title" => "Error {$data['errcode']} | " .SITE,
-            "error" => $data["errcode"]
+            "title"     => "Error {$data['errcode']} | " .SITE,
+            "error"     => $data["errcode"],
+            "mobile"    => "Não Encontrada: ".$data["errcode"]
         ]);
     }
-
 }

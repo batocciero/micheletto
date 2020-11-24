@@ -16,17 +16,42 @@
     <div class="separator"></div>
 
     <div class="container text-center">
-        <p class="text-justify">
+        <p class="text-justify d-none d-md-block">
             Durante um longo período a vinicultura brasileira se dedicou quase exclusivamente a elaboração dos
-            tradicionais Vinhos de Mesa (ouVinhos da Colônia), produtos elaborados a partir de variedades de uvas
+            tradicionais Vinhos de Mesa (ou Vinhos da Colônia), produtos elaborados a partir de variedades de uvas
             americanas (Vitis labruscas) ou híbridas, mais adaptadas ao solo e,principalmente, ao clima brasileiro...
             São produtos ainda hoje muito bem aceitos e consumidos, contando com apreciadores em todo o país...
             Com o passar do tempo foi provado o potencial de determinados terroirs brasileiros para produção de castas
             européias (Vitis viníferas)  com as quais vem se elaborando vinhos finos de excelente qualidade...
-            Mais recentemente a tecnologia de inversão de poda da videirapossibilitou a expansão do cultivo dessas
-            uvas européias para regiões do Sudeste e do Centro Oeste onde estão sendo produzidos ossurpreendentes
+            Mais recentemente a tecnologia de inversão de poda da videira possibilitou a expansão do cultivo dessas
+            uvas européias para regiões do Sudeste e do Centro Oeste onde estão sendo produzidos os surpreendentes
             Vinhos Finos de Colheita de Inverno!
         </p>
+
+        <!-- Start Text with drop down -->
+        <div class="m-0 p-0 text-justify mb-3 d-block d-md-none">
+            Durante um longo período a vinicultura brasileira se dedicou quase exclusivamente a elaboração dos
+            tradicionais Vinhos de Mesa (ou Vinhos da Colônia), produtos elaborados a partir de variedades de uvas
+            americanas (Vitis labruscas) ou híbridas, mais adaptadas ao solo e,principalmente, ao clima brasileiro...
+            <span class="btn btn-link collapsed text-wine m-0 p-0 mb-1" data-toggle="collapse" data-target="#Vinhos3" aria-expanded="false" aria-controls="#Vinhos3">
+                <u><strong>continue lendo</strong></u>
+            </span>
+            <div id="Vinhos1">
+                <div id="Vinhos3" class="collapse" aria-labelledby="Vinhos1" data-parent="#Vinhos1">
+                    <div >
+                        <p>
+                            São produtos ainda hoje muito bem aceitos e consumidos, contando com apreciadores em todo o país...
+                            Com o passar do tempo foi provado o potencial de determinados terroirs brasileiros para produção de castas
+                            européias (Vitis viníferas)  com as quais vem se elaborando vinhos finos de excelente qualidade...
+                            Mais recentemente a tecnologia de inversão de poda da videira possibilitou a expansão do cultivo dessas
+                            uvas européias para regiões do Sudeste e do Centro Oeste onde estão sendo produzidos os surpreendentes
+                            Vinhos Finos de Colheita de Inverno!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Text with drop down -->
 
         <div class="row d-none d-lg-flex">
             <div class="col">
@@ -76,74 +101,123 @@
             <div class="carousel-inner">
                 <div class="carousel-item active px-4">
                     <div class="row mx-0 px-5 my-5">
+                        
+                        <!-- TINTO SECO -->
                         <div class="col-3 px-5">
                             <div class="vinho-card">
-                                <img src="<?= url("theme/img/produtos/vinhos/carr/vinho1.jpeg"); ?>" class="vinhos-height w-100 " alt="">
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/tintoseco.jpg"); ?>" class="vinhos-height w-100 " alt="">
                                 <p class="text-white mt-2 mb-0 h5 text-center">Tinto Seco</p>
                                 <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel
-                                    </br>
+                                    <br>
                                     Garrafa: 750ml
-                                    </br>
+                                    <br>
                                     Garrafão: 4,6Lts
                                 </p>
                             </div>
                         </div>
                         
-                                                <div class="col-3 px-5">
-                            <div class="vinho-card">
-                                <img src="<?= url("theme/img/produtos/vinhos/carr/brancosecomoscatel.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Seco Moscatel</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Lorena</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
-                            </div>
-                        </div>
-
-
+                        <!-- TINTO SUAVE -->
                         <div class="col-3 px-5">
                             <div class="vinho-card">
-                                <img src="<?= url("theme/img/produtos/vinhos/carr/tintosuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/tintosuave.jpg"); ?>" class="vinhos-height w-100 " alt="">
                                 <p class="text-white text-center mt-2 mb-0 h5">Tinto Suave</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
+
+                        <!-- BRANCO SECO -->
                         <div class="col-3 px-5">
                             <div class="vinho-card">
-                                <img src="<?= url("theme/img/produtos/vinhos/carr/rosesuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Rosé Suave</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/brancoseco.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                                <p class="text-white text-center mt-2 mb-0 h5">Branco Seco</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Niagara Branca<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
+                            </div>
+                        </div>
+
+                        <!-- BRANCO SUAVE -->
+                        <div class="col-3 px-5">
+                            <div class="vinho-card">
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/brancosuave.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                                <p class="text-white text-center mt-2 mb-0 h5">Branco Suave</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Niagara Branca<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item px-4">
                     <div class="row mx-0 px-5 my-5">
+
+                        <!-- Isabella Rose Seco -->
                         <div class="col-3 px-5">
                             <div class="vinho-card">
-                                <img src="<?= url("theme/img/produtos/vinhos/carr/tintosuave2.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Tinto Suave</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/roseseco.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                                <p class="text-white text-center mt-2 mb-0 h5">Isabella <br> Rosé Seco</p>
+                                <p class="text-white text-center descriptionvinho mb-2">100% uva Isabel<br>Garrafa: 750ml</p>
                             </div>
                         </div>
+
+                        <!-- Isabella Rose Suave -->
                         <div class="col-3 px-5">
                             <div class="vinho-card">
-                                <img src="<?= url("theme/img/produtos/vinhos/carr/brancosuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Branco Suave</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Niagara</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/rosesuave.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                                <p class="text-white text-center mt-2 mb-0 h5">Isabella <br> Rosé Suave</p>
+                                <p class="text-white text-center descriptionvinho mb-2">100% uva Isabel<br>Garrafa: 750ml</p>
                             </div>
                         </div>
+
+                        <!-- Tradizione Bordô Seco -->
                         <div class="col-3 px-5">
                             <div class="vinho-card">
-                                <img src="<?= url("theme/img/produtos/vinhos/carr/roseseco.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Rosé Seco</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/tradseco.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                                <p class="text-white text-center mt-2 mb-0 vinho-descicao">Tradizione Bordô Seco</p>
+                                <p class="text-white text-center descriptionvinho mb-2">100% uva Bordô<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
+
+                        <!-- Tradizione Bordô Suave -->
                         <div class="col-3 px-5">
                             <div class="vinho-card">
-                                <img src="<?= url("theme/img/produtos/vinhos/carr/brancomoscatel.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                                <p class="text-white text-center mt-2 mb-0 h5">Demi Sec Moscatel</p>
-                                <p class="text-white text-center descriptionvinho mb-2">Uvas Lorena</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/tradsuave.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                                <p class="text-white text-center mt-2 mb-0 vinho-descicao">Tradizione Bordô Suave</p>
+                                <p class="text-white text-center descriptionvinho mb-2">100% uva Bordô<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item px-4">
+                    <div class="row mx-0 px-5 my-5">
+
+                        <!-- Delicato Rose (produção limitada) -->
+                        <div class="col-3 px-5">
+                            <div class="vinho-card">
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/rosefino.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                                <p class="text-white text-center mt-2 mb-0 h5">Delicato Rosé Suave</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uvas Niagara Rosada<br>Garrafa: 750ml <br>produção limitada</p>
+                            </div>
+                        </div>
+
+                       
+                        <!-- Micheletto Moscatel Seco -->
+                        <div class="col-3 px-5">
+                            <div class="vinho-card">
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/moseco.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                                <p class="text-white text-center mt-2 mb-0 h5">Micheletto Moscatel <br> Branco Seco</p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uva Lorena<br>Garrafa: 750ml</p>
+                            </div>
+                        </div>
+
+                        <!-- Micheletto Moscatel Demi Sec -->
+                        <div class="col-3 px-5">
+                            <div class="vinho-card">
+                                <img src="<?= url("theme/img/produtos/vinhos/carr/modemi.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                                <p class="text-white text-center mt-2 mb-0 h5">Micheletto Moscatel <br>Demi Sec </p>
+                                <p class="text-white text-center descriptionvinho mb-2">Uva Lorena<br>Garrafa: 750ml</p>
+                            </div>
+                        </div>
+
+                         <!-- CABE MAIS UM ITEM -->
+
                     </div>
                 </div>
             </div>
@@ -158,89 +232,107 @@
         </div>
 
         <!-- MOBILE -->
+        <!-- TINTO SECO MOBILE -->
         <div class="row mx-0 py-3 my-3 d-flex d-xl-none carouselmobile">
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
-                    <img src="<?= url("theme/img/produtos/vinhos/carr/vinho1.jpeg"); ?>" class="vinhos-height w-100 " alt="">
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/tintoseco.jpg"); ?>" class="vinhos-height w-100 " alt="">
                     <p class="text-white text-center mt-2 mb-0 h5">Tinto Seco</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
 
+            <!-- TINTO SUAVE MOBILE -->
+            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
+                <div class="vinho-card">
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/tintosuave.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                    <p class="text-white text-center mt-2 mb-0 h5">Tinto Suave</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
+                </div>
+            </div>
 
+            <!-- BRANCO SECO MOBILE -->
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
-                    <img src="<?= url("theme/img/produtos/vinhos/carr/tintosuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Tinto Suave</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/brancoseco.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                    <p class="text-white text-center mt-2 mb-0 h5">Branco Seco</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Niagara Branca<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
+
+            <!-- BRANCO SUAVE MOBILE -->
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
-                    <img src="<?= url("theme/img/produtos/vinhos/carr/rosesuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Rosé Suave</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
-                <div class="vinho-card">
-                    <img src="<?= url("theme/img/produtos/vinhos/carr/tintosuave2.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Tinto Suave</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
-                </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
-                <div class="vinho-card">
-                    <img src="<?= url("theme/img/produtos/vinhos/carr/brancosuave.jpeg"); ?>" class="vinhos-height w-100 " alt="">
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/brancosuave.jpg"); ?>" class="vinhos-height w-100 " alt="">
                     <p class="text-white text-center mt-2 mb-0 h5">Branco Suave</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Niagara</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Niagara Branca<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
+
+            <!-- Isabella Rose Seco MOBILE -->
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
-                    <img src="<?= url("theme/img/produtos/vinhos/carr/roseseco.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Rosé Seco</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/roseseco.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                    <p class="text-white text-center mt-2 mb-0 h5">Isabella <br> Rosé Seco</p>
+                    <p class="text-white text-center descriptionvinho mb-2">100% uva Isabel<br>Garrafa: 750ml</p>
                 </div>
             </div>
+
+            <!-- Isabella Rose Seco MOBILE -->
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
-                    <img src="<?= url("theme/img/produtos/vinhos/carr/brancomoscatel.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Demi Sec Moscatel</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Lorena</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/rosesuave.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                    <p class="text-white text-center mt-2 mb-0 h5">Isabella <br> Rosé Suave</p>
+                    <p class="text-white text-center descriptionvinho mb-2">100% uva Isabel<br>Garrafa: 750ml</p>
                 </div>
             </div>
+
+            <!-- Tradizione Bordô Seco MOBILE  -->
             <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
                 <div class="vinho-card">
-                    <img src="<?= url("theme/img/produtos/vinhos/carr/brancosecomoscatel.jpeg"); ?>" class="vinhos-height w-100 " alt="">
-                    <p class="text-white text-center mt-2 mb-0 h5">Seco Moscatel</p>
-                    <p class="text-white text-center descriptionvinho mb-2">Uvas Lorena</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/tradseco.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                    <p class="text-white text-center mt-2 mb-0 h5 vinho-descicao">Tradizione Bordô Seco</p>
+                    <p class="text-white text-center descriptionvinho mb-2">100% uva Bordô<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
+                </div>
+            </div>
+
+            <!-- Tradizione Bordô Seco MOBILE -->
+            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
+                <div class="vinho-card">
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/tradsuave.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                    <p class="text-white text-center mt-2 mb-0 h5 vinho-descicao">Tradizione Bordô Suave</p>
+                    <p class="text-white text-center descriptionvinho mb-2">100% uva Bordô<br>Garrafa: 750ml<br>Garrafão: 4,6Lts</p>
                 </div>
             </div>
 
 
-<!--            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">-->
-<!--                <div class="vinho-card">-->
-<!--                    <img src="https://via.placeholder.com/350x600" class="w-100" alt="">-->
-<!--                    <p class="text-white text-center mt-2 mb-0 h5">NOME DO VINHO</p>-->
-<!--                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">-->
-<!--                <div class="vinho-card">-->
-<!--                    <img src="https://via.placeholder.com/350x600" class="w-100" alt="">-->
-<!--                    <p class="text-white text-center mt-2 mb-0 h5">NOME DO VINHO</p>-->
-<!--                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2">-->
-<!--                <div class="vinho-card text-center">-->
-<!--                    <img src="https://via.placeholder.com/350x600" class="w-100" alt="">-->
-<!--                    <p class="text-white text-center mt-2 mb-0 h5">NOME DO VINHO</p>-->
-<!--                    <p class="text-white text-center descriptionvinho mb-2">Uvas Bordo e Isabel</br>Garrafa: 750ml</br>Garrafão: 4,6Lts</p>-->
-<!--                </div>-->
-<!--            </div>-->
 
+            <!-- Delicato Rose (produção limitada) -->
+            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
+               <div class="vinho-card">
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/rosefino.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                    <p class="text-white text-center mt-2 mb-0 h5">Delicato Rosé Suave</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uvas Niagara Rosada<br>Garrafa: 750ml <br>produção limitada</p>
+               </div>
+           </div>
+
+            <!-- Micheletto Moscatel Seco MOBILE -->
+            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
+               <div class="vinho-card">
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/moseco.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                    <p class="text-white text-center mt-2 mb-0 h5">Micheletto Moscatel <br> Branco Seco</p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uva Lorena<br>Garrafa: 750ml</p>
+               </div>
+           </div>
+
+            <!-- Micheletto Moscatel Demi Sec MOBILE -->
+            <div class="col-6 col-md-4 col-lg-3 mx-0 px-2 pb-4">
+               <div class="vinho-card">
+                    <img src="<?= url("theme/img/produtos/vinhos/carr/modemi.jpg"); ?>" class="vinhos-height w-100 " alt="">
+                    <p class="text-white text-center mt-2 mb-0 h5">Micheletto Moscatel <br>Demi Sec </p>
+                    <p class="text-white text-center descriptionvinho mb-2">Uva Lorena<br>Garrafa: 750ml</p>
+               </div>
+           </div>
 
         </div>
     </div>

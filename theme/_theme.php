@@ -18,7 +18,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-winenav">
-    <a class="navbar-brand d-block d-lg-none" style="font-weight: 500;" href="#">Vinhos Micheletto</a>
+    <a class="navbar-brand d-block d-lg-none" style="font-weight: 500;" href="#"><?= $mobile; ?></a>
         <button 
             class="navbar-toggler ml-auto" 
             type="button" data-toggle="collapse" 
@@ -160,7 +160,7 @@
             </div>   
         </div>
         <div class="text-center bg-wine pt-1 pb-1">
-            <a class="text-header" href="https://wofous.com">Vinhos Micheletto Powered by wofous</a>
+            <a class="text-header" target="_blank" href="https://wofous.com">Vinhos Micheletto Powered by wofous</a>
         </div>
     </footer>
 

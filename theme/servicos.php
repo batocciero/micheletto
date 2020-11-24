@@ -32,20 +32,17 @@
 
 
         <div class="row mb-4">
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <img class="img-fluid" src="<?= url("theme/img/servicos/s1.png"); ?>" alt="Vinhos Louveira">
             </div>
-            <div class="col-md-6">
-                <img class="img-fluid mt-3 mt-lg-0" src="<?= url("theme/img/servicos/s2.png"); ?>" alt="Vinhos Louveira">
+            <div class="col-md-3">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/servicos/s2.png"); ?>" alt="Vinhos Louveira">
             </div>
-        </div>
-
-        <div class="row mb-4">
-            <div class="col-md-6">
-                <img class="img-fluid" src="<?= url("theme/img/servicos/s3.png"); ?>" alt="Vinhos Louveira">
+            <div class="col-md-3">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/servicos/s3.png"); ?>" alt="Vinhos Louveira">
             </div>
-            <div class="col-md-6">
-                <img class="img-fluid mt-3 mt-lg-0" src="<?= url("theme/img/servicos/s4.png"); ?>" alt="Vinhos Louveira">
+            <div class="col-md-3">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/servicos/s4.png"); ?>" alt="Vinhos Louveira">
             </div>
         </div>
 
@@ -62,7 +59,7 @@
                 <img class="img-fluid" src="<?= url("theme/img/servicos/s5.png"); ?>" alt="Vinhos Louveira">
             </div>
             <div class="col-md-6">
-                <img class="img-fluid mt-3 mt-lg-0" src="<?= url("theme/img/servicos/s6.png"); ?>" alt="Vinhos Louveira">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/servicos/s6.png"); ?>" alt="Vinhos Louveira">
             </div>
         </div>
 
@@ -75,15 +72,16 @@
         </p>
 
         <div class="row mb-4">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <img class="img-fluid" src="<?= url("theme/img/servicos/s7.png"); ?>" alt="Vinhos Louveira">
             </div>
-            <div class="col-md-6">
-                <img class="img-fluid mt-3 mt-lg-0" src="<?= url("theme/img/servicos/s8.png"); ?>" alt="Vinhos Louveira">
+            <div class="col-md-4">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/servicos/s8.png"); ?>" alt="Vinhos Louveira">
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/servicos/slg.png"); ?>" alt="Vinhos Louveira">
             </div>
         </div>
-
-        <img class="img-fluid" src="<?= url("theme/img/servicos/slg.png"); ?>" alt="Vinhos Louveira">
 
         <p class="text-wine font-weight-bolder title-size mt-5">
             ENSAIOS FOTOGRÁFICOS
