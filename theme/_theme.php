@@ -71,6 +71,10 @@
                     <a onclick="addClass('lservicos')" class="font-weight-bold nav-link " href="<?= url("servicos"); ?>" tabindex="-1" aria-disabled="true">Serviços</a>
                 </li>
 
+                <li id="lservicos" class="nav-item ">
+                    <a onclick="addClass('lservicos')" class="font-weight-bold nav-link " href="<?= url("servicos"); ?>" tabindex="-1" aria-disabled="true">Quiosque</a>
+                </li>
+
                 <li id="leventos" class="nav-item">
                     <a onclick="addClass('leventos')" class="font-weight-bold nav-link " href="<?= url("eventos"); ?>" tabindex="-1" aria-disabled="true">Eventos</a>
                 </li>

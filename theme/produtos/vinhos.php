@@ -74,7 +74,6 @@
             </div>
         </div>
 
-
         <p class="text-justify mt-5 mb-5">
             Não esquecendo a tradição, mas sempre atenta a inovação, a Vinícola Micheletto produz em suas quatro unidades
             diferentes variedades de uvas com as quais são elaborados vinhos de mesa e vinhos finos que buscam atender
@@ -502,5 +501,22 @@
             </div>
         </div>
 
+    </div>
+
+    <div class="title">
+        <div class="container p-0">
+            <div class="row mx-0 justify-content-center title">
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-right line"></div>
+                    <p class="p-0 m-0 text-center title-text-home h3 font-weight-bold align-items-center mb-2">Vinhos Personalizados</p>
+                <div class="d-none d-lg-block col-2 p-0 m-0 text-left line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container final-space-finos">
+        <p class="text-justify mt-4">
+            Na Vinícola Micheletto você também encontra o serviços de personalização de rótulos para toda linha de vinhos de mesa!
+            Divulgue sua marca presenteando clientes, amigos, fornecedores e colaboradores com os vinhos personalizados Micheletto...
+            faça um orçamento sem compromisso através do nosso WhatsApp!
+        </p>
     </div>
 </div>

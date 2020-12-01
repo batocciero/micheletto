@@ -128,5 +128,17 @@
                 <strong>Informações através do telefone (19) 99732-5953</strong>
             </p>
         </div>
+
+
+        <div class="container final-space-finos">
+            <p class="text-wine font-weight-bolder title-size mt-5">
+                VINHOS PERSONALIZADOS
+            </p>
+            <p class="text-justify mt-4">
+                Na Vinícola Micheletto você também encontra o serviços de personalização de rótulos para toda linha de vinhos de mesa!
+                Divulgue sua marca presenteando clientes, amigos, fornecedores e colaboradores com os vinhos personalizados Micheletto...
+                faça um orçamento sem compromisso através do nosso <strong>WhatsApp!</strong>
+            </p>
+        </div>
     </div>
 </div>
