@@ -145,6 +145,15 @@ class Web
         ]);
     }
 
+    // Quiosque
+    public function quiosque(): void
+    {
+        echo $this->view->render("quiosque", [
+            "title"     => "Quiosque ". SITE,
+            "mobile"    => "Quiosque"
+        ]);
+    }
+
     // Serviços
     public function servicos(): void
     {

@@ -50,6 +50,11 @@ $router->get("/curiosidades", "Web:curiosidades");
 $router->get("/eventos", "Web:eventos");
 
 /*
+ * Quiosque
+ */
+$router->get("/quiosque", "Web:quiosque");
+
+/*
  * Serviços
  */
 $router->get("/servicos", "Web:servicos");

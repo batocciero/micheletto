@@ -1,12 +1,13 @@
 <?php
 
-// Utilizar esse link em produção.
-//define("ROOT", "https://vinhosmicheletto.com.br");
 //define("ROOT", "http://localhost/micheletto");
 // define("ROOT", "http://testandosite.epizy.com");
 
 // for docker
-define("ROOT", "http://localhost:8000/");
+define("ROOT", "http://localhost:8000");
+
+//Produção
+//define("ROOT", "https://vinhosmicheletto.com.br");
 
 define("SITE",":: Vinhos Micheletto");
 

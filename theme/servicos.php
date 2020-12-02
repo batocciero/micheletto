@@ -14,37 +14,6 @@
     <div class="separator"></div>
 
     <div class="container">
-        <p class="text-wine font-weight-bolder title-size m-0 ">
-            QUIOSQUE MICHELETTO
-        </p>
-        <br>
-        <p class="text-justify">
-            Ao lado da Vinícola e em meio aos parreirais do Sítio Santa Rita você encontra o Quiosque Micheletto,
-            ambiente aconchegante ideal para um bate papo entre amigos! Além dos vinhos o local também oferece outras
-            bebidas e porções que podem ser degustados num mirante onde se visualiza o vale repleto de parreiras...
-            <a target="_blank" class="font-weight-bold text-wine" href="<?= url("theme/download/CARDAPIO_MICHELETTO.pdf"); ?>" download>
-                Confira nosso cardápio!
-            </a>
-            <br> <br>
-            <strong>Horário de Funcionamento do Quiosque:</strong> sexta-feira das 17h às 22h, sábados das 10h às 22h
-            e domingos: das 10h às 18h.
-        </p>
-
-
-        <div class="row mb-4">
-            <div class="col-md-3">
-                <img class="img-fluid" src="<?= url("theme/img/servicos/s1.png"); ?>" alt="Vinhos Louveira">
-            </div>
-            <div class="col-md-3">
-                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/servicos/s2.png"); ?>" alt="Vinhos Louveira">
-            </div>
-            <div class="col-md-3">
-                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/servicos/s3.png"); ?>" alt="Vinhos Louveira">
-            </div>
-            <div class="col-md-3">
-                <img class="img-fluid mt-3 mt-md-0" src="<?= url("theme/img/servicos/s4.png"); ?>" alt="Vinhos Louveira">
-            </div>
-        </div>
 
         <p class="text-wine font-weight-bolder title-size ">
             PONTO DE APOIO AOS CICLISTAS

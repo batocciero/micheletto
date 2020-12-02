@@ -13,7 +13,8 @@ const pages = {
     "monitorado": "lturismo",
     "curiosidades": "lcuriosidades",
     "servicos": "lservicos",
-    "eventos": "leventos"
+    "eventos": "leventos",
+    "quiosque": "lquiosque"
 }
 
 function getPageId(pgId) {
