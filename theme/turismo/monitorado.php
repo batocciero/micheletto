@@ -33,7 +33,8 @@
 
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Opção 1. Passeio da Uva ao Vinho com degustação básica</p>
         <br>
-        <p><strong>Valor:</strong> R$ 35,00/pessoa (grupo com no mínimo 10 pessoas... para grupos menores taxa mínima de R$ 350,00).</p>
+        <!-- <p><strong>Valor:</strong> R$ 35,00/pessoa (grupo com no mínimo 10 pessoas... para grupos menores taxa mínima de R$ 350,00).</p> -->
+        <p><strong>Quantidade de Participantes:</strong>  Grupo com no mínimo 10 pessoas.</p>
         <p><strong>Duração aproximada:</strong> 60 Minutos.</p>
         <p><strong>Horários:</strong>  experiência para grupos fechados... data e horário devem ser pré agendados.</p>
         <p class="mb-0"><strong>Reservas antecipadas:</strong> via WhatsApp... pagamento on line</p>
@@ -102,7 +103,8 @@
         <!-- OPÇÃO 2 -->
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Opção 2. Passeio da Uva ao Vinho com degustação de vinhos finos oriundos do terroir de inverno</p>
         <br>
-        <p><strong>Valor:</strong>  R$ 90,00/pessoa (grupo com no mínimo 5 pessoas... para grupos menores taxa mínima de R$ 450,00).</p>
+        <!-- <p><strong>Valor:</strong>  R$ 90,00/pessoa (grupo com no mínimo 5 pessoas... para grupos menores taxa mínima de R$ 450,00).</p> -->
+        <p><strong>Quantidade de Participantes:</strong>  Grupo com no mínimo 6 pessoas.</p>
         <p><strong>Duração aproximada:</strong> 120 Minutos.</p>
         <p><strong>Horários:</strong>  experiência para grupos fechados... data e horário devem ser pré agendados.</p>
         <p class="mb-0"><strong>Reservas antecipadas:</strong> via WhatsApp... pagamento on line</p>
@@ -163,7 +165,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row final-space-finos">
             <div class="col-md-4">
                 <img class="mt-1 img-fluid" src="<?= url("theme/img/turismo/monitorado/img10.png"); ?>" alt="Vinhos Louveira">
             </div>
@@ -171,7 +173,7 @@
                 <img class="mt-1 img-fluid" src="<?= url("theme/img/turismo/monitorado/img11.png"); ?>" alt="Vinhos Louveira">
             </div>
             <div class="col-md-4 mt-3 mt-md-0">
-                <img class="mt-1 mb-5 img-fluid" src="<?= url("theme/img/turismo/monitorado/img12.png"); ?>" alt="Vinhos Louveira">
+                <img class="mt-1 img-fluid" src="<?= url("theme/img/turismo/monitorado/img12.png"); ?>" alt="Vinhos Louveira">
             </div>
         </div>
     </div>

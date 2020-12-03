@@ -46,12 +46,12 @@
 
         <p class="text-wine font-weight-bolder title-size m-0 mt-5">Parede Verde</p>
         <br>
-        <p class="m-0 p-0 text-center">
+        <!-- <p class="m-0 p-0 text-center">
             Numa parceria com as empresas PLASNOVA TUBOS E MONDO IRRIGAÇÃO foi criada a nossa PAREDE VERDE, local
             onde o visitante pode fazer fotos e buscar informações sobre esse interessante trabalho paisagístico!
-        </p>
+        </p> -->
 
-        <img class="img-fluid mt-4 mb-5" src="<?= url("theme/img/produtos/flores/img5.png"); ?>" alt="Vinhos Louveira">
+        <img class="img-fluid mt-2 final-space-finos" src="<?= url("theme/img/produtos/flores/img5.png"); ?>" alt="Vinhos Louveira">
 
     </div>
 </div>
