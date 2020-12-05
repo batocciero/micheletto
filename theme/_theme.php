@@ -5,8 +5,9 @@
     <meta name="viewport" 
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Vinhos Louveira">
-    <meta name="keywords" content="Vinhos Micheletto Vinhos Louveira">
+    <meta name="description" content="Vinhos Micheletto. Para quem gosta de apreciar um bom vinho esse é o melhor lugar. Vinhos Micheletto em Louveira">
+    <meta name="keywords" content="Vinhos Micheletto, Vinhos Louveira, vinhos finos, enólogo, sommelier, quiosque, comidas típicas italiana">
+    <meta name="author" content="Wofous marketing Digital.">
     <meta name="robots" content=""> <meta name="revisit-after" content="1 day">
     <meta name="language" content="Portuguese">
     <meta http-equiv="Content-Type" content="text/php; charset=utf-8">
