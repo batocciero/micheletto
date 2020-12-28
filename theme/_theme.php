@@ -174,5 +174,6 @@
     <script src="<?= url("/theme/js/bootstrap.min.js"); ?>"></script>
     <script src="<?= url("/theme/js/all.min.js"); ?>"></script> <!-- Font Awesome -->
     <script src="<?= url("/theme/js/main.js"); ?>"></script>
+    <script src="<?= url("/theme/js/addons.js"); ?>"></script>
 </body>
 </html>

@@ -1,0 +1,33 @@
+@import "themecolors";
+
+#modal-addon {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  height: 100%;
+  width: 100%;
+}
+.modalconent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  display: grid;
+}
+
+.img-addons {
+  height: 500px;
+  width: 500px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 100px) {
+  .img-addons {
+    height: 300px;
+    width: 300px;
+  }
+}
