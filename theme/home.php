@@ -13,12 +13,12 @@
   </div>
   <div class="container-fluid px-md-5 ml-auto mr-auto mt-md-3">
     
-    <div id="modal-addon">
+    <!-- <div id="modal-addon">
       <div class="modalconent d-grid">
-          <img class="img-addons" src="<?= url("theme/img/addons/fechado_natal.jpeg"); ?>" alt="Estamos fechados para final de ano.">
+          <img class="img-addons" src="PATH DA IMAGEM" alt="Estamos fechados para final de ano.">
           <button type="button" class="btn btn-wine mt-2" id="button-addon">Fechar</button>
       </div>
-    </div>
+    </div> -->
 
     <div class="row mx-0 px-md-5 text-center">
       <div class="col-6 col-lg-3 col-md-6 pt-4 pr-2 pl-0 mx-0">
