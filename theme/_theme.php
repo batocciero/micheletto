@@ -175,5 +175,6 @@
     <script src="<?= url("/theme/js/all.min.js"); ?>"></script> <!-- Font Awesome -->
     <script src="<?= url("/theme/js/main.js"); ?>"></script>
     <!-- Aqui fica o script dos addons -->
+    <script src="<?= url("/theme/js/addons.js"); ?>"></script>
 </body>
 </html>

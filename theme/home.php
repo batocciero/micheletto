@@ -13,12 +13,33 @@
   </div>
   <div class="container-fluid px-md-5 ml-auto mr-auto mt-md-3">
     
+    <!-- Pop Up com imagem -->
     <!-- <div id="modal-addon">
       <div class="modalconent d-grid">
           <img class="img-addons" src="PATH DA IMAGEM" alt="Estamos fechados para final de ano.">
           <button type="button" class="btn btn-wine mt-2" id="button-addon">Fechar</button>
       </div>
     </div> -->
+
+    <!-- Pop Up apenas textos -->
+    <div id="modal-addon">
+      <div class="modalconent d-grid">
+        <div class="container-text-addon">
+          <p class="title-addon">
+            Em função da pandemia. 
+          </p>
+          <p class="sub-tittle-addon">
+            Estão suspensos, <strong>temporariamente</strong>, os serviços:
+          </p>
+          <ul class="ml-3">
+            <li><strong>Passeio à Cavalo.</strong></li>
+            <li><strong>Visitas Monitoradas.</strong></li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-wine mt-2" id="button-addon">Fechar</button>
+      </div>
+    </div>
+    <!-- End. Pop Up apenas textos -->
 
     <div class="row mx-0 px-md-5 text-center">
       <div class="col-6 col-lg-3 col-md-6 pt-4 pr-2 pl-0 mx-0">
