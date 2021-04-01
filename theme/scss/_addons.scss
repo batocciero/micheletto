@@ -21,8 +21,9 @@
 }
 
 .img-addons {
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
 }
 
 .title-addon {
@@ -34,6 +35,16 @@
 .sub-tittle-addon {
   font-size: 20px;
   color: $winenav;
+}
+
+.txt-addon {
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn-margins {
+  margin-right: 150px;
+  margin-left: 150px;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 100px) {
@@ -49,5 +60,9 @@
   }
   .sub-tittle-addon{
     font-size: 18px;
+  }
+  .btn-margins {
+    margin-right: 80px;
+    margin-left: 80px;
   }
 }
