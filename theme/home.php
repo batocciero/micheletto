@@ -26,11 +26,12 @@
     </div> -->
 
     <!-- Pop Up apenas textos -->
-    <div id="modal-addon">
+    <!-- <div id="modal-addon">
       <div class="modalconent d-grid">
         <div class="container-text-addon">
           <p class="title-addon">
-            Em função da nova fase vermelha. 
+            Funcionamento da Vinícola <br class="d-block d-md-none">
+            na fase atual da pandemia. 
           </p>
           <p class="sub-tittle-addon">
             Fiquem atentos às funcionalidade dos <strong>serviços</strong>:
@@ -42,8 +43,33 @@
         </div>
         <button type="button" class="btn btn-wine mt-2" id="button-addon">Fechar</button>
       </div>
-    </div>
+    </div> -->
     <!-- End. Pop Up apenas textos -->
+
+        <!-- Pop Up Fase Atual da pandemia -->
+    <div id="modal-addon">
+      <div class="modalconent d-grid">
+        <div class="container-text-addon">
+          <p class="title-addon">
+            Funcionamento da Vinícola <br class="d-block d-md-none">
+            na fase atual da pandemia. 
+          </p>
+          <!-- <p class="sub-tittle-addon">
+            Fiquem atentos às funcionalidade dos <strong>serviços</strong>:
+          </p> -->
+          <ul class="ml-3">
+            <li><strong><span class="text-title">Empório: </span> </strong> <strong>Aberto</strong> em horário normal com protocolos de controle de acesso e procedimentos de higiene.</li>
+            <li><strong><span class="text-title">Visita à propriedade rural: </span> </strong> <strong>Liberado</strong> em horário normal para grupos familiares. Obrigatório uso de máscara. Acesso gratuito.</li>
+            <li><strong><span class="text-title">Visitas monitoradas: </span> </strong> <strong>Suspensa</strong> temporariamente.</li>
+            <li><strong><span class="text-title">Área de alimentação: </span> </strong> <strong>Fechada</strong> temporariamente.</li>
+            <li><strong><span class="text-title">Eventos: </span> </strong> <strong>Suspenso</strong> temporariamente.</li>
+            <li><strong><span class="text-title"><strong>Proibido consumo no local. </span> </strong></strong></li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-wine mt-2" id="button-addon">Fechar</button>
+      </div>
+    </div>
+    <!-- End. Pop Up Fase Atual da pandemia -->
 
     <div class="row mx-0 px-md-5 text-center">
       <div class="col-6 col-lg-3 col-md-6 pt-4 pr-2 pl-0 mx-0">
