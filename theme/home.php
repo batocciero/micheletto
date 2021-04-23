@@ -61,9 +61,8 @@
             <li><strong><span class="text-title">Empório: </span> </strong> <strong>Aberto</strong> em horário normal com protocolos de controle de acesso e procedimentos de higiene.</li>
             <li><strong><span class="text-title">Visita à propriedade rural: </span> </strong> <strong>Liberado</strong> em horário normal para grupos familiares. Obrigatório uso de máscara. Acesso gratuito.</li>
             <li><strong><span class="text-title">Visitas monitoradas: </span> </strong> <strong>Suspensa</strong> temporariamente.</li>
-            <li><strong><span class="text-title">Área de alimentação: </span> </strong> <strong>Fechada</strong> temporariamente.</li>
+            <li><strong><span class="text-title">Quiosque Micheletto: </span> </strong> <strong>Aberto</strong> aos sábados e domingos das <strong>10h às 18h.</strong> </li>
             <li><strong><span class="text-title">Eventos: </span> </strong> <strong>Suspenso</strong> temporariamente.</li>
-            <li><strong><span class="text-title"><strong>Proibido consumo no local. </span> </strong></strong></li>
           </ul>
         </div>
         <button type="button" class="btn btn-wine mt-2" id="button-addon">Fechar</button>
