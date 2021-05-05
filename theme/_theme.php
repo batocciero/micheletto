@@ -159,8 +159,8 @@
                     </div>
             </div>   
             <div class="footer5">
-                <i class="fab fa-2x fa-facebook-f"></i>
-                <i class="ml-2 fab fa-2x fa-instagram"></i>
+                <a href="https://pt-br.facebook.com/VinhosMicheletto/" target="_blank" class="text-white"><i class="fab fa-2x fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/vinhosmicheletto/" target="_blank" class="text-white"><i class="ml-2 fab fa-2x fa-instagram"></i></a>
                 <i class="ml-2 fab fa-2x fa-twitter"></i>
             </div>   
         </div>

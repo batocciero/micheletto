@@ -53,6 +53,11 @@
           <p class="title-addon">
             Funcionamento da Vinícola <br class="d-block d-md-none">
             na fase atual da pandemia. 
+            <br>
+            <span class="text-title" style="font-size:17px;">
+              Atenção, foi criado um perfil falso <a href="https://www.instagram.com/vinhosmichelettoo/?hl=en">@vinhosmichelettoo</a>,
+              Por favor denunciem!
+            </span>
           </p>
           <!-- <p class="sub-tittle-addon">
             Fiquem atentos às funcionalidade dos <strong>serviços</strong>:
